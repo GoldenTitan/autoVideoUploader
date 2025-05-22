@@ -1,2 +1,4 @@
 VideoUploaderProject/logs/app.log
 VideoUploaderProject/uploaded_videos_tracker.txt
+*.log
+*.txt
