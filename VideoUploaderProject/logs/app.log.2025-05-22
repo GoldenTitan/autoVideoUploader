@@ -1,0 +1,375 @@
+2025-05-22 13:02:29,285 - __main__ - INFO - 视频上传任务启动。源文件夹: C:/twitter_download/ShouldHaveCat/ShouldHaveCat, 追踪文件: C:\Users\Administrator\Desktop\autoVideoUploader0.03\autoVideoUploader0.03\removePython\VideoUploaderProject\uploaded_videos_tracker.txt
+2025-05-22 13:02:29,288 - __main__ - INFO - 成功上传的视频将被移动到: C:/twitter_download/ShouldHaveCat/ShouldHaveCat/UploadedArchive
+2025-05-22 13:02:29,289 - __main__ - INFO - 将每隔 8 小时上传最多 10 个视频。
+2025-05-22 13:02:29,289 - __main__ - INFO - 首次将从文件名编号不小于 111 的视频开始处理。
+2025-05-22 13:02:29,290 - __main__ - INFO - 开始新一轮视频上传检查 (间隔: 8 小时, 批次数量: 10)...
+2025-05-22 13:02:29,294 - __main__ - INFO - 找到 111 个潜在待上传视频。
+2025-05-22 13:02:29,295 - __main__ - INFO - 本轮将尝试上传 10 个视频: ['C:/twitter_download/ShouldHaveCat/ShouldHaveCat\\海外猫咪视频大赏111.mp4', 'C:/twitter_download/ShouldHaveCat/ShouldHaveCat\\海外猫咪视频大赏112.mp4', 'C:/twitter_download/ShouldHaveCat/ShouldHaveCat\\海外猫咪视频大赏113.mp4', 'C:/twitter_download/ShouldHaveCat/ShouldHaveCat\\海外猫咪视频大赏114.mp4', 'C:/twitter_download/ShouldHaveCat/ShouldHaveCat\\海外猫咪视频大赏115.mp4', 'C:/twitter_download/ShouldHaveCat/ShouldHaveCat\\海外猫咪视频大赏116.mp4', 'C:/twitter_download/ShouldHaveCat/ShouldHaveCat\\海外猫咪视频大赏117.mp4', 'C:/twitter_download/ShouldHaveCat/ShouldHaveCat\\海外猫咪视频大赏118.mp4', 'C:/twitter_download/ShouldHaveCat/ShouldHaveCat\\海外猫咪视频大赏119.mp4', 'C:/twitter_download/ShouldHaveCat/ShouldHaveCat\\海外猫咪视频大赏120.mp4']
+2025-05-22 13:02:29,297 - __main__ - INFO - 已创建存档文件夹: C:/twitter_download/ShouldHaveCat/ShouldHaveCat/UploadedArchive
+2025-05-22 13:02:29,298 - __main__ - INFO - ======== 开始处理视频: C:/twitter_download/ShouldHaveCat/ShouldHaveCat\海外猫咪视频大赏111.mp4 ========
+2025-05-22 13:02:31,604 - __main__ - WARNING - 视频 C:/twitter_download/ShouldHaveCat/ShouldHaveCat\海外猫咪视频大赏111.mp4 因WebDriver创建失败已记录到追踪文件，不会重试。
+2025-05-22 13:02:40,166 - __main__ - INFO - ======== 开始处理视频: C:/twitter_download/ShouldHaveCat/ShouldHaveCat\海外猫咪视频大赏112.mp4 ========
+2025-05-22 13:02:42,036 - __main__ - WARNING - 视频 C:/twitter_download/ShouldHaveCat/ShouldHaveCat\海外猫咪视频大赏112.mp4 因WebDriver创建失败已记录到追踪文件，不会重试。
+2025-05-22 13:04:28,532 - __main__ - INFO - 视频上传任务启动。源文件夹: C:/twitter_download/ShouldHaveCat/ShouldHaveCat, 追踪文件: C:\Users\Administrator\Desktop\autoVideoUploader0.03\autoVideoUploader0.03\removePython\VideoUploaderProject\uploaded_videos_tracker.txt
+2025-05-22 13:04:28,533 - __main__ - INFO - 成功上传的视频将被移动到: C:/twitter_download/ShouldHaveCat/ShouldHaveCat/UploadedArchive
+2025-05-22 13:04:28,535 - __main__ - INFO - 将每隔 8 小时上传最多 10 个视频。
+2025-05-22 13:04:28,535 - __main__ - INFO - 首次将从文件名编号不小于 111 的视频开始处理。
+2025-05-22 13:04:28,536 - __main__ - INFO - 开始新一轮视频上传检查 (间隔: 8 小时, 批次数量: 10)...
+2025-05-22 13:04:28,538 - __main__ - INFO - 视频 海外猫咪视频大赏111.mp4 已记录为上传过，将跳过。
+2025-05-22 13:04:28,539 - __main__ - INFO - 视频 海外猫咪视频大赏112.mp4 已记录为上传过，将跳过。
+2025-05-22 13:04:28,540 - __main__ - INFO - 找到 109 个潜在待上传视频。
+2025-05-22 13:04:28,540 - __main__ - INFO - 本轮将尝试上传 10 个视频: ['C:/twitter_download/ShouldHaveCat/ShouldHaveCat\\海外猫咪视频大赏113.mp4', 'C:/twitter_download/ShouldHaveCat/ShouldHaveCat\\海外猫咪视频大赏114.mp4', 'C:/twitter_download/ShouldHaveCat/ShouldHaveCat\\海外猫咪视频大赏115.mp4', 'C:/twitter_download/ShouldHaveCat/ShouldHaveCat\\海外猫咪视频大赏116.mp4', 'C:/twitter_download/ShouldHaveCat/ShouldHaveCat\\海外猫咪视频大赏117.mp4', 'C:/twitter_download/ShouldHaveCat/ShouldHaveCat\\海外猫咪视频大赏118.mp4', 'C:/twitter_download/ShouldHaveCat/ShouldHaveCat\\海外猫咪视频大赏119.mp4', 'C:/twitter_download/ShouldHaveCat/ShouldHaveCat\\海外猫咪视频大赏120.mp4', 'C:/twitter_download/ShouldHaveCat/ShouldHaveCat\\海外猫咪视频大赏121.mp4', 'C:/twitter_download/ShouldHaveCat/ShouldHaveCat\\海外猫咪视频大赏122.mp4']
+2025-05-22 13:04:28,543 - __main__ - INFO - ======== 开始处理视频: C:/twitter_download/ShouldHaveCat/ShouldHaveCat\海外猫咪视频大赏113.mp4 ========
+2025-05-22 13:04:32,472 - __main__ - WARNING - 视频 C:/twitter_download/ShouldHaveCat/ShouldHaveCat\海外猫咪视频大赏113.mp4 因WebDriver创建失败已记录到追踪文件，不会重试。
+2025-05-22 13:05:40,405 - __main__ - INFO - 视频上传任务启动。源文件夹: C:/twitter_download/ShouldHaveCat/ShouldHaveCat, 追踪文件: C:\Users\Administrator\Desktop\autoVideoUploader0.03\autoVideoUploader0.03\removePython\VideoUploaderProject\uploaded_videos_tracker.txt
+2025-05-22 13:05:40,407 - __main__ - INFO - 成功上传的视频将被移动到: C:/twitter_download/ShouldHaveCat/ShouldHaveCat/UploadedArchive
+2025-05-22 13:05:40,408 - __main__ - INFO - 将每隔 8 小时上传最多 10 个视频。
+2025-05-22 13:05:40,408 - __main__ - INFO - 首次将从文件名编号不小于 111 的视频开始处理。
+2025-05-22 13:05:40,409 - __main__ - INFO - 开始新一轮视频上传检查 (间隔: 8 小时, 批次数量: 10)...
+2025-05-22 13:05:40,412 - __main__ - INFO - 视频 海外猫咪视频大赏111.mp4 已记录为上传过，将跳过。
+2025-05-22 13:05:40,413 - __main__ - INFO - 视频 海外猫咪视频大赏112.mp4 已记录为上传过，将跳过。
+2025-05-22 13:05:40,414 - __main__ - INFO - 视频 海外猫咪视频大赏113.mp4 已记录为上传过，将跳过。
+2025-05-22 13:05:40,415 - __main__ - INFO - 找到 108 个潜在待上传视频。
+2025-05-22 13:05:40,415 - __main__ - INFO - 本轮将尝试上传 10 个视频: ['C:/twitter_download/ShouldHaveCat/ShouldHaveCat\\海外猫咪视频大赏114.mp4', 'C:/twitter_download/ShouldHaveCat/ShouldHaveCat\\海外猫咪视频大赏115.mp4', 'C:/twitter_download/ShouldHaveCat/ShouldHaveCat\\海外猫咪视频大赏116.mp4', 'C:/twitter_download/ShouldHaveCat/ShouldHaveCat\\海外猫咪视频大赏117.mp4', 'C:/twitter_download/ShouldHaveCat/ShouldHaveCat\\海外猫咪视频大赏118.mp4', 'C:/twitter_download/ShouldHaveCat/ShouldHaveCat\\海外猫咪视频大赏119.mp4', 'C:/twitter_download/ShouldHaveCat/ShouldHaveCat\\海外猫咪视频大赏120.mp4', 'C:/twitter_download/ShouldHaveCat/ShouldHaveCat\\海外猫咪视频大赏121.mp4', 'C:/twitter_download/ShouldHaveCat/ShouldHaveCat\\海外猫咪视频大赏122.mp4', 'C:/twitter_download/ShouldHaveCat/ShouldHaveCat\\海外猫咪视频大赏123.mp4']
+2025-05-22 13:05:40,419 - __main__ - INFO - ======== 开始处理视频: C:/twitter_download/ShouldHaveCat/ShouldHaveCat\海外猫咪视频大赏114.mp4 ========
+2025-05-22 13:05:40,419 - __main__ - DEBUG - 为视频 海外猫咪视频大赏114.mp4 创建 WebDriver 实例...
+2025-05-22 13:05:42,145 - __main__ - WARNING - 视频 C:/twitter_download/ShouldHaveCat/ShouldHaveCat\海外猫咪视频大赏114.mp4 因WebDriver创建失败已记录到追踪文件，不会重试。
+2025-05-22 13:05:42,151 - __main__ - DEBUG - 正在关闭视频 海外猫咪视频大赏114.mp4 的浏览器实例...
+2025-05-22 13:05:44,740 - __main__ - DEBUG - 视频 海外猫咪视频大赏114.mp4 的浏览器实例已关闭。
+2025-05-22 13:05:49,754 - __main__ - INFO - ======== 开始处理视频: C:/twitter_download/ShouldHaveCat/ShouldHaveCat\海外猫咪视频大赏115.mp4 ========
+2025-05-22 13:05:49,754 - __main__ - DEBUG - 为视频 海外猫咪视频大赏115.mp4 创建 WebDriver 实例...
+2025-05-22 13:05:51,441 - __main__ - WARNING - 视频 C:/twitter_download/ShouldHaveCat/ShouldHaveCat\海外猫咪视频大赏115.mp4 因WebDriver创建失败已记录到追踪文件，不会重试。
+2025-05-22 13:05:51,453 - __main__ - DEBUG - 正在关闭视频 海外猫咪视频大赏115.mp4 的浏览器实例...
+2025-05-22 13:05:54,038 - __main__ - DEBUG - 视频 海外猫咪视频大赏115.mp4 的浏览器实例已关闭。
+2025-05-22 13:05:59,048 - __main__ - INFO - ======== 开始处理视频: C:/twitter_download/ShouldHaveCat/ShouldHaveCat\海外猫咪视频大赏116.mp4 ========
+2025-05-22 13:05:59,049 - __main__ - DEBUG - 为视频 海外猫咪视频大赏116.mp4 创建 WebDriver 实例...
+2025-05-22 13:06:01,689 - __main__ - WARNING - 视频 C:/twitter_download/ShouldHaveCat/ShouldHaveCat\海外猫咪视频大赏116.mp4 因WebDriver创建失败已记录到追踪文件，不会重试。
+2025-05-22 13:06:01,697 - __main__ - DEBUG - 正在关闭视频 海外猫咪视频大赏116.mp4 的浏览器实例...
+2025-05-22 13:08:06,209 - __main__ - INFO - 视频上传任务启动。源文件夹: C:/twitter_download/ShouldHaveCat/ShouldHaveCat, 追踪文件: C:\Users\Administrator\Desktop\autoVideoUploader0.03\autoVideoUploader0.03\removePython\VideoUploaderProject\uploaded_videos_tracker.txt
+2025-05-22 13:08:06,212 - __main__ - INFO - 成功上传的视频将被移动到: C:/twitter_download/ShouldHaveCat/ShouldHaveCat/UploadedArchive
+2025-05-22 13:08:06,214 - __main__ - INFO - 将每隔 8 小时上传最多 10 个视频。
+2025-05-22 13:08:06,214 - __main__ - INFO - 首次将从文件名编号不小于 111 的视频开始处理。
+2025-05-22 13:08:06,215 - __main__ - INFO - 开始新一轮视频上传检查 (间隔: 8 小时, 批次数量: 10)...
+2025-05-22 13:08:06,218 - __main__ - INFO - 视频 海外猫咪视频大赏111.mp4 已记录为上传过，将跳过。
+2025-05-22 13:08:06,218 - __main__ - INFO - 视频 海外猫咪视频大赏112.mp4 已记录为上传过，将跳过。
+2025-05-22 13:08:06,219 - __main__ - INFO - 视频 海外猫咪视频大赏113.mp4 已记录为上传过，将跳过。
+2025-05-22 13:08:06,219 - __main__ - INFO - 视频 海外猫咪视频大赏114.mp4 已记录为上传过，将跳过。
+2025-05-22 13:08:06,221 - __main__ - INFO - 视频 海外猫咪视频大赏115.mp4 已记录为上传过，将跳过。
+2025-05-22 13:08:06,223 - __main__ - INFO - 视频 海外猫咪视频大赏116.mp4 已记录为上传过，将跳过。
+2025-05-22 13:08:06,226 - __main__ - INFO - 找到 105 个潜在待上传视频。
+2025-05-22 13:08:06,230 - __main__ - INFO - 本轮将尝试上传 10 个视频: ['C:/twitter_download/ShouldHaveCat/ShouldHaveCat\\海外猫咪视频大赏117.mp4', 'C:/twitter_download/ShouldHaveCat/ShouldHaveCat\\海外猫咪视频大赏118.mp4', 'C:/twitter_download/ShouldHaveCat/ShouldHaveCat\\海外猫咪视频大赏119.mp4', 'C:/twitter_download/ShouldHaveCat/ShouldHaveCat\\海外猫咪视频大赏120.mp4', 'C:/twitter_download/ShouldHaveCat/ShouldHaveCat\\海外猫咪视频大赏121.mp4', 'C:/twitter_download/ShouldHaveCat/ShouldHaveCat\\海外猫咪视频大赏122.mp4', 'C:/twitter_download/ShouldHaveCat/ShouldHaveCat\\海外猫咪视频大赏123.mp4', 'C:/twitter_download/ShouldHaveCat/ShouldHaveCat\\海外猫咪视频大赏124.mp4', 'C:/twitter_download/ShouldHaveCat/ShouldHaveCat\\海外猫咪视频大赏125.mp4', 'C:/twitter_download/ShouldHaveCat/ShouldHaveCat\\海外猫咪视频大赏126.mp4']
+2025-05-22 13:08:06,236 - __main__ - INFO - ======== 开始处理视频: C:/twitter_download/ShouldHaveCat/ShouldHaveCat\海外猫咪视频大赏117.mp4 ========
+2025-05-22 13:08:06,239 - __main__ - DEBUG - 为视频 海外猫咪视频大赏117.mp4 创建 WebDriver 实例...
+2025-05-22 13:08:08,152 - __main__ - WARNING - 视频 C:/twitter_download/ShouldHaveCat/ShouldHaveCat\海外猫咪视频大赏117.mp4 因WebDriver创建失败已记录到追踪文件，不会重试。
+2025-05-22 13:08:08,163 - __main__ - DEBUG - 正在关闭视频 海外猫咪视频大赏117.mp4 的浏览器实例...
+2025-05-22 13:08:10,683 - __main__ - DEBUG - 视频 海外猫咪视频大赏117.mp4 的浏览器实例已关闭。
+2025-05-22 13:09:26,735 - __main__ - INFO - 视频上传任务启动。源文件夹: C:/twitter_download/ShouldHaveCat/ShouldHaveCat, 追踪文件: C:\Users\Administrator\Desktop\autoVideoUploader0.03\autoVideoUploader0.03\removePython\VideoUploaderProject\uploaded_videos_tracker.txt
+2025-05-22 13:09:26,736 - __main__ - INFO - 成功上传的视频将被移动到: C:/twitter_download/ShouldHaveCat/ShouldHaveCat/UploadedArchive
+2025-05-22 13:09:26,740 - __main__ - INFO - 将每隔 8 小时上传最多 10 个视频。
+2025-05-22 13:09:26,776 - __main__ - INFO - 首次将从文件名编号不小于 111 的视频开始处理。
+2025-05-22 13:09:26,778 - __main__ - INFO - 开始新一轮视频上传检查 (间隔: 8 小时, 批次数量: 10)...
+2025-05-22 13:09:26,783 - __main__ - INFO - 视频 海外猫咪视频大赏111.mp4 已记录为上传过，将跳过。
+2025-05-22 13:09:26,784 - __main__ - INFO - 视频 海外猫咪视频大赏112.mp4 已记录为上传过，将跳过。
+2025-05-22 13:09:26,784 - __main__ - INFO - 视频 海外猫咪视频大赏113.mp4 已记录为上传过，将跳过。
+2025-05-22 13:09:26,785 - __main__ - INFO - 视频 海外猫咪视频大赏114.mp4 已记录为上传过，将跳过。
+2025-05-22 13:09:26,786 - __main__ - INFO - 视频 海外猫咪视频大赏115.mp4 已记录为上传过，将跳过。
+2025-05-22 13:09:26,787 - __main__ - INFO - 视频 海外猫咪视频大赏116.mp4 已记录为上传过，将跳过。
+2025-05-22 13:09:26,791 - __main__ - INFO - 视频 海外猫咪视频大赏117.mp4 已记录为上传过，将跳过。
+2025-05-22 13:09:26,793 - __main__ - INFO - 找到 104 个潜在待上传视频。
+2025-05-22 13:09:26,794 - __main__ - INFO - 本轮将尝试上传 10 个视频: ['C:/twitter_download/ShouldHaveCat/ShouldHaveCat\\海外猫咪视频大赏118.mp4', 'C:/twitter_download/ShouldHaveCat/ShouldHaveCat\\海外猫咪视频大赏119.mp4', 'C:/twitter_download/ShouldHaveCat/ShouldHaveCat\\海外猫咪视频大赏120.mp4', 'C:/twitter_download/ShouldHaveCat/ShouldHaveCat\\海外猫咪视频大赏121.mp4', 'C:/twitter_download/ShouldHaveCat/ShouldHaveCat\\海外猫咪视频大赏122.mp4', 'C:/twitter_download/ShouldHaveCat/ShouldHaveCat\\海外猫咪视频大赏123.mp4', 'C:/twitter_download/ShouldHaveCat/ShouldHaveCat\\海外猫咪视频大赏124.mp4', 'C:/twitter_download/ShouldHaveCat/ShouldHaveCat\\海外猫咪视频大赏125.mp4', 'C:/twitter_download/ShouldHaveCat/ShouldHaveCat\\海外猫咪视频大赏126.mp4', 'C:/twitter_download/ShouldHaveCat/ShouldHaveCat\\海外猫咪视频大赏127.mp4']
+2025-05-22 13:09:26,796 - __main__ - INFO - ======== 开始处理视频: C:/twitter_download/ShouldHaveCat/ShouldHaveCat\海外猫咪视频大赏118.mp4 ========
+2025-05-22 13:09:26,799 - __main__ - DEBUG - 为视频 海外猫咪视频大赏118.mp4 创建 WebDriver 实例...
+2025-05-22 13:09:28,566 - __main__ - WARNING - 视频 C:/twitter_download/ShouldHaveCat/ShouldHaveCat\海外猫咪视频大赏118.mp4 因WebDriver创建失败已记录到追踪文件，不会重试。
+2025-05-22 13:09:28,573 - __main__ - DEBUG - 正在关闭视频 海外猫咪视频大赏118.mp4 的浏览器实例...
+2025-05-22 13:09:31,120 - __main__ - DEBUG - 视频 海外猫咪视频大赏118.mp4 的浏览器实例已关闭。
+2025-05-22 13:09:36,131 - __main__ - INFO - ======== 开始处理视频: C:/twitter_download/ShouldHaveCat/ShouldHaveCat\海外猫咪视频大赏119.mp4 ========
+2025-05-22 13:09:36,133 - __main__ - DEBUG - 为视频 海外猫咪视频大赏119.mp4 创建 WebDriver 实例...
+2025-05-22 13:09:38,540 - __main__ - WARNING - 视频 C:/twitter_download/ShouldHaveCat/ShouldHaveCat\海外猫咪视频大赏119.mp4 因WebDriver创建失败已记录到追踪文件，不会重试。
+2025-05-22 13:09:38,568 - __main__ - DEBUG - 正在关闭视频 海外猫咪视频大赏119.mp4 的浏览器实例...
+2025-05-22 13:09:41,318 - __main__ - DEBUG - 视频 海外猫咪视频大赏119.mp4 的浏览器实例已关闭。
+2025-05-22 13:13:52,697 - __main__ - INFO - 视频上传任务启动。源文件夹: C:/twitter_download/ShouldHaveCat/ShouldHaveCat, 追踪文件: C:\Users\Administrator\Desktop\autoVideoUploader0.03\autoVideoUploader0.03\removePython\VideoUploaderProject\uploaded_videos_tracker.txt
+2025-05-22 13:13:52,699 - __main__ - INFO - 成功上传的视频将被移动到: C:/twitter_download/ShouldHaveCat/ShouldHaveCat/UploadedArchive
+2025-05-22 13:13:52,703 - __main__ - INFO - 将每隔 8 小时上传最多 10 个视频。
+2025-05-22 13:13:52,726 - __main__ - INFO - 首次将从文件名编号不小于 111 的视频开始处理。
+2025-05-22 13:13:52,728 - __main__ - INFO - 开始新一轮视频上传检查 (间隔: 8 小时, 批次数量: 10)...
+2025-05-22 13:13:52,733 - __main__ - INFO - 视频 海外猫咪视频大赏111.mp4 已记录为上传过，将跳过。
+2025-05-22 13:13:52,734 - __main__ - INFO - 视频 海外猫咪视频大赏112.mp4 已记录为上传过，将跳过。
+2025-05-22 13:13:52,742 - __main__ - INFO - 视频 海外猫咪视频大赏113.mp4 已记录为上传过，将跳过。
+2025-05-22 13:13:52,749 - __main__ - INFO - 视频 海外猫咪视频大赏114.mp4 已记录为上传过，将跳过。
+2025-05-22 13:13:52,756 - __main__ - INFO - 视频 海外猫咪视频大赏115.mp4 已记录为上传过，将跳过。
+2025-05-22 13:13:52,759 - __main__ - INFO - 视频 海外猫咪视频大赏116.mp4 已记录为上传过，将跳过。
+2025-05-22 13:13:52,760 - __main__ - INFO - 视频 海外猫咪视频大赏117.mp4 已记录为上传过，将跳过。
+2025-05-22 13:13:52,761 - __main__ - INFO - 视频 海外猫咪视频大赏118.mp4 已记录为上传过，将跳过。
+2025-05-22 13:13:52,765 - __main__ - INFO - 视频 海外猫咪视频大赏119.mp4 已记录为上传过，将跳过。
+2025-05-22 13:13:52,772 - __main__ - INFO - 找到 102 个潜在待上传视频。
+2025-05-22 13:13:52,774 - __main__ - INFO - 本轮将尝试上传 10 个视频: ['C:/twitter_download/ShouldHaveCat/ShouldHaveCat\\海外猫咪视频大赏120.mp4', 'C:/twitter_download/ShouldHaveCat/ShouldHaveCat\\海外猫咪视频大赏121.mp4', 'C:/twitter_download/ShouldHaveCat/ShouldHaveCat\\海外猫咪视频大赏122.mp4', 'C:/twitter_download/ShouldHaveCat/ShouldHaveCat\\海外猫咪视频大赏123.mp4', 'C:/twitter_download/ShouldHaveCat/ShouldHaveCat\\海外猫咪视频大赏124.mp4', 'C:/twitter_download/ShouldHaveCat/ShouldHaveCat\\海外猫咪视频大赏125.mp4', 'C:/twitter_download/ShouldHaveCat/ShouldHaveCat\\海外猫咪视频大赏126.mp4', 'C:/twitter_download/ShouldHaveCat/ShouldHaveCat\\海外猫咪视频大赏127.mp4', 'C:/twitter_download/ShouldHaveCat/ShouldHaveCat\\海外猫咪视频大赏128.mp4', 'C:/twitter_download/ShouldHaveCat/ShouldHaveCat\\海外猫咪视频大赏129.mp4']
+2025-05-22 13:13:52,781 - __main__ - INFO - ======== 开始处理视频: C:/twitter_download/ShouldHaveCat/ShouldHaveCat\海外猫咪视频大赏120.mp4 ========
+2025-05-22 13:13:52,793 - __main__ - DEBUG - 为视频 海外猫咪视频大赏120.mp4 创建 WebDriver 实例...
+2025-05-22 13:13:55,821 - __main__ - WARNING - 视频 C:/twitter_download/ShouldHaveCat/ShouldHaveCat\海外猫咪视频大赏120.mp4 因WebDriver创建失败已记录到追踪文件，不会重试。
+2025-05-22 13:13:55,826 - __main__ - DEBUG - 正在关闭视频 海外猫咪视频大赏120.mp4 的浏览器实例...
+2025-05-22 13:13:58,429 - __main__ - DEBUG - 视频 海外猫咪视频大赏120.mp4 的浏览器实例已关闭。
+2025-05-22 13:16:24,964 - __main__ - INFO - 视频上传任务启动。源文件夹: C:/twitter_download/ShouldHaveCat/ShouldHaveCat, 追踪文件: C:\Users\Administrator\Desktop\autoVideoUploader0.03\autoVideoUploader0.03\removePython\VideoUploaderProject\uploaded_videos_tracker.txt
+2025-05-22 13:16:24,966 - __main__ - INFO - 成功上传的视频将被移动到: C:/twitter_download/ShouldHaveCat/ShouldHaveCat/UploadedArchive
+2025-05-22 13:16:24,969 - __main__ - INFO - 将每隔 8 小时上传最多 10 个视频。
+2025-05-22 13:16:24,973 - __main__ - INFO - 首次将从文件名编号不小于 111 的视频开始处理。
+2025-05-22 13:16:24,974 - __main__ - INFO - 开始新一轮视频上传检查 (间隔: 8 小时, 批次数量: 10)...
+2025-05-22 13:16:24,986 - __main__ - INFO - 视频 海外猫咪视频大赏111.mp4 已记录为上传过，将跳过。
+2025-05-22 13:16:24,990 - __main__ - INFO - 视频 海外猫咪视频大赏112.mp4 已记录为上传过，将跳过。
+2025-05-22 13:16:24,995 - __main__ - INFO - 视频 海外猫咪视频大赏113.mp4 已记录为上传过，将跳过。
+2025-05-22 13:16:24,997 - __main__ - INFO - 视频 海外猫咪视频大赏114.mp4 已记录为上传过，将跳过。
+2025-05-22 13:16:25,000 - __main__ - INFO - 视频 海外猫咪视频大赏115.mp4 已记录为上传过，将跳过。
+2025-05-22 13:16:25,005 - __main__ - INFO - 视频 海外猫咪视频大赏116.mp4 已记录为上传过，将跳过。
+2025-05-22 13:16:25,008 - __main__ - INFO - 视频 海外猫咪视频大赏117.mp4 已记录为上传过，将跳过。
+2025-05-22 13:16:25,027 - __main__ - INFO - 视频 海外猫咪视频大赏118.mp4 已记录为上传过，将跳过。
+2025-05-22 13:16:25,031 - __main__ - INFO - 视频 海外猫咪视频大赏119.mp4 已记录为上传过，将跳过。
+2025-05-22 13:16:25,037 - __main__ - INFO - 视频 海外猫咪视频大赏120.mp4 已记录为上传过，将跳过。
+2025-05-22 13:16:25,043 - __main__ - INFO - 找到 101 个潜在待上传视频。
+2025-05-22 13:16:25,044 - __main__ - INFO - 本轮将尝试上传 10 个视频: ['C:/twitter_download/ShouldHaveCat/ShouldHaveCat\\海外猫咪视频大赏121.mp4', 'C:/twitter_download/ShouldHaveCat/ShouldHaveCat\\海外猫咪视频大赏122.mp4', 'C:/twitter_download/ShouldHaveCat/ShouldHaveCat\\海外猫咪视频大赏123.mp4', 'C:/twitter_download/ShouldHaveCat/ShouldHaveCat\\海外猫咪视频大赏124.mp4', 'C:/twitter_download/ShouldHaveCat/ShouldHaveCat\\海外猫咪视频大赏125.mp4', 'C:/twitter_download/ShouldHaveCat/ShouldHaveCat\\海外猫咪视频大赏126.mp4', 'C:/twitter_download/ShouldHaveCat/ShouldHaveCat\\海外猫咪视频大赏127.mp4', 'C:/twitter_download/ShouldHaveCat/ShouldHaveCat\\海外猫咪视频大赏128.mp4', 'C:/twitter_download/ShouldHaveCat/ShouldHaveCat\\海外猫咪视频大赏129.mp4', 'C:/twitter_download/ShouldHaveCat/ShouldHaveCat\\海外猫咪视频大赏130.mp4']
+2025-05-22 13:16:25,054 - __main__ - INFO - ======== 开始处理视频: C:/twitter_download/ShouldHaveCat/ShouldHaveCat\海外猫咪视频大赏121.mp4 ========
+2025-05-22 13:16:25,070 - __main__ - DEBUG - 为视频 海外猫咪视频大赏121.mp4 创建 WebDriver 实例...
+2025-05-22 13:16:27,698 - __main__ - DEBUG - 为视频 海外猫咪视频大赏121.mp4 登录网站...
+2025-05-22 13:16:52,382 - __main__ - DEBUG - 成功为视频 海外猫咪视频大赏121.mp4 登录/导航到上传页面。
+2025-05-22 13:17:10,696 - __main__ - INFO - 视频 C:/twitter_download/ShouldHaveCat/ShouldHaveCat\海外猫咪视频大赏121.mp4 上传成功并已记录到追踪文件。
+2025-05-22 13:17:20,702 - __main__ - INFO - 视频 海外猫咪视频大赏121.mp4 已成功移动到存档文件夹: C:/twitter_download/ShouldHaveCat/ShouldHaveCat/UploadedArchive\海外猫咪视频大赏121.mp4
+2025-05-22 13:17:20,704 - __main__ - ERROR - 视频 C:/twitter_download/ShouldHaveCat/ShouldHaveCat\海外猫咪视频大赏121.mp4 上传失败。该视频已记录到追踪文件，不会重试。
+2025-05-22 13:17:20,706 - __main__ - DEBUG - 正在关闭视频 海外猫咪视频大赏121.mp4 的浏览器实例...
+2025-05-22 13:17:23,264 - __main__ - DEBUG - 视频 海外猫咪视频大赏121.mp4 的浏览器实例已关闭。
+2025-05-22 13:17:28,278 - __main__ - INFO - ======== 完成处理视频: C:/twitter_download/ShouldHaveCat/ShouldHaveCat\海外猫咪视频大赏121.mp4 ========
+
+2025-05-22 13:17:28,285 - __main__ - INFO - ======== 开始处理视频: C:/twitter_download/ShouldHaveCat/ShouldHaveCat\海外猫咪视频大赏122.mp4 ========
+2025-05-22 13:17:28,292 - __main__ - DEBUG - 为视频 海外猫咪视频大赏122.mp4 创建 WebDriver 实例...
+2025-05-22 13:17:30,809 - __main__ - DEBUG - 为视频 海外猫咪视频大赏122.mp4 登录网站...
+2025-05-22 13:17:37,873 - __main__ - DEBUG - 正在关闭视频 海外猫咪视频大赏122.mp4 的浏览器实例...
+2025-05-22 13:23:08,445 - __main__ - INFO - 视频上传任务启动。源文件夹: C:/twitter_download/ShouldHaveCat/ShouldHaveCat, 追踪文件: C:\Users\Administrator\Desktop\autoVideoUploader0.03\autoVideoUploader0.03\removePython\VideoUploaderProject\uploaded_videos_tracker.txt
+2025-05-22 13:23:08,447 - __main__ - INFO - 成功上传的视频将被移动到: C:/twitter_download/ShouldHaveCat/ShouldHaveCat/UploadedArchive
+2025-05-22 13:23:08,447 - __main__ - INFO - 将每隔 8 小时上传最多 10 个视频。
+2025-05-22 13:23:08,448 - __main__ - INFO - 首次将从文件名编号不小于 111 的视频开始处理。
+2025-05-22 13:23:08,449 - __main__ - INFO - 开始新一轮视频上传检查 (间隔: 8 小时, 批次数量: 10)...
+2025-05-22 13:23:08,451 - __main__ - INFO - 找到 110 个潜在待上传视频。
+2025-05-22 13:23:08,452 - __main__ - INFO - 本轮将尝试上传 10 个视频: ['C:/twitter_download/ShouldHaveCat/ShouldHaveCat\\海外猫咪视频大赏111.mp4', 'C:/twitter_download/ShouldHaveCat/ShouldHaveCat\\海外猫咪视频大赏112.mp4', 'C:/twitter_download/ShouldHaveCat/ShouldHaveCat\\海外猫咪视频大赏113.mp4', 'C:/twitter_download/ShouldHaveCat/ShouldHaveCat\\海外猫咪视频大赏114.mp4', 'C:/twitter_download/ShouldHaveCat/ShouldHaveCat\\海外猫咪视频大赏115.mp4', 'C:/twitter_download/ShouldHaveCat/ShouldHaveCat\\海外猫咪视频大赏116.mp4', 'C:/twitter_download/ShouldHaveCat/ShouldHaveCat\\海外猫咪视频大赏117.mp4', 'C:/twitter_download/ShouldHaveCat/ShouldHaveCat\\海外猫咪视频大赏118.mp4', 'C:/twitter_download/ShouldHaveCat/ShouldHaveCat\\海外猫咪视频大赏119.mp4', 'C:/twitter_download/ShouldHaveCat/ShouldHaveCat\\海外猫咪视频大赏120.mp4']
+2025-05-22 13:23:08,455 - __main__ - INFO - ======== 开始处理视频: C:/twitter_download/ShouldHaveCat/ShouldHaveCat\海外猫咪视频大赏111.mp4 ========
+2025-05-22 13:23:08,460 - __main__ - DEBUG - 为视频 海外猫咪视频大赏111.mp4 创建 WebDriver 实例...
+2025-05-22 13:23:10,351 - __main__ - DEBUG - 为视频 海外猫咪视频大赏111.mp4 登录网站...
+2025-05-22 13:23:34,176 - __main__ - DEBUG - 成功为视频 海外猫咪视频大赏111.mp4 登录/导航到上传页面。
+2025-05-22 13:23:51,417 - __main__ - INFO - 视频 C:/twitter_download/ShouldHaveCat/ShouldHaveCat\海外猫咪视频大赏111.mp4 上传成功并已记录到追踪文件。
+2025-05-22 13:24:01,427 - __main__ - INFO - 视频 海外猫咪视频大赏111.mp4 已成功移动到存档文件夹: C:/twitter_download/ShouldHaveCat/ShouldHaveCat/UploadedArchive\海外猫咪视频大赏111.mp4
+2025-05-22 13:24:01,432 - __main__ - ERROR - 视频 C:/twitter_download/ShouldHaveCat/ShouldHaveCat\海外猫咪视频大赏111.mp4 上传失败。该视频已记录到追踪文件，不会重试。
+2025-05-22 13:24:01,436 - __main__ - DEBUG - 正在关闭视频 海外猫咪视频大赏111.mp4 的浏览器实例...
+2025-05-22 13:24:03,915 - __main__ - DEBUG - 视频 海外猫咪视频大赏111.mp4 的浏览器实例已关闭。
+2025-05-22 13:24:08,917 - __main__ - INFO - ======== 完成处理视频: C:/twitter_download/ShouldHaveCat/ShouldHaveCat\海外猫咪视频大赏111.mp4 ========
+
+2025-05-22 13:24:09,494 - __main__ - INFO - ======== 开始处理视频: C:/twitter_download/ShouldHaveCat/ShouldHaveCat\海外猫咪视频大赏112.mp4 ========
+2025-05-22 13:24:09,495 - __main__ - DEBUG - 为视频 海外猫咪视频大赏112.mp4 创建 WebDriver 实例...
+2025-05-22 13:24:11,639 - __main__ - DEBUG - 为视频 海外猫咪视频大赏112.mp4 登录网站...
+2025-05-22 13:25:20,244 - __main__ - INFO - 视频上传任务启动。源文件夹: C:/twitter_download/ShouldHaveCat/ShouldHaveCat, 追踪文件: C:\Users\Administrator\Desktop\autoVideoUploader0.03\autoVideoUploader0.03\removePython\VideoUploaderProject\uploaded_videos_tracker.txt
+2025-05-22 13:25:20,246 - __main__ - INFO - 成功上传的视频将被移动到: C:/twitter_download/ShouldHaveCat/ShouldHaveCat/UploadedArchive
+2025-05-22 13:25:20,246 - __main__ - INFO - 将每隔 8 小时上传最多 10 个视频。
+2025-05-22 13:25:20,247 - __main__ - INFO - 首次将从文件名编号不小于 111 的视频开始处理。
+2025-05-22 13:25:20,247 - __main__ - INFO - 开始新一轮视频上传检查 (间隔: 8 小时, 批次数量: 10)...
+2025-05-22 13:25:20,250 - __main__ - INFO - 找到 109 个潜在待上传视频。
+2025-05-22 13:25:20,251 - __main__ - INFO - 本轮将尝试上传 10 个视频: ['C:/twitter_download/ShouldHaveCat/ShouldHaveCat\\海外猫咪视频大赏112.mp4', 'C:/twitter_download/ShouldHaveCat/ShouldHaveCat\\海外猫咪视频大赏113.mp4', 'C:/twitter_download/ShouldHaveCat/ShouldHaveCat\\海外猫咪视频大赏114.mp4', 'C:/twitter_download/ShouldHaveCat/ShouldHaveCat\\海外猫咪视频大赏115.mp4', 'C:/twitter_download/ShouldHaveCat/ShouldHaveCat\\海外猫咪视频大赏116.mp4', 'C:/twitter_download/ShouldHaveCat/ShouldHaveCat\\海外猫咪视频大赏117.mp4', 'C:/twitter_download/ShouldHaveCat/ShouldHaveCat\\海外猫咪视频大赏118.mp4', 'C:/twitter_download/ShouldHaveCat/ShouldHaveCat\\海外猫咪视频大赏119.mp4', 'C:/twitter_download/ShouldHaveCat/ShouldHaveCat\\海外猫咪视频大赏120.mp4', 'C:/twitter_download/ShouldHaveCat/ShouldHaveCat\\海外猫咪视频大赏122.mp4']
+2025-05-22 13:25:20,258 - __main__ - INFO - ======== 开始处理视频: C:/twitter_download/ShouldHaveCat/ShouldHaveCat\海外猫咪视频大赏112.mp4 ========
+2025-05-22 13:25:20,261 - __main__ - DEBUG - 为视频 海外猫咪视频大赏112.mp4 创建 WebDriver 实例...
+2025-05-22 13:25:22,970 - __main__ - DEBUG - 为视频 海外猫咪视频大赏112.mp4 登录网站...
+2025-05-22 13:26:00,380 - __main__ - DEBUG - 正在关闭视频 海外猫咪视频大赏112.mp4 的浏览器实例...
+2025-05-22 13:26:02,856 - __main__ - DEBUG - 视频 海外猫咪视频大赏112.mp4 的浏览器实例已关闭。
+2025-05-22 13:26:07,873 - __main__ - ERROR - 发生未预期错误: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: MicrosoftEdge=136.0.3240.76)
+Stacktrace:
+	GetHandleVerifier [0x00007FF718F1F965+25029]
+	(No symbol) [0x00007FF718E74970]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF71917AA6A+1947706]
+	(No symbol) [0x00007FF718C1C28F]
+	(No symbol) [0x00007FF718CAEAE0]
+	(No symbol) [0x00007FF718CC609A]
+	(No symbol) [0x00007FF718CA8DF3]
+	(No symbol) [0x00007FF718C7D6A6]
+	(No symbol) [0x00007FF718C7CBB3]
+	(No symbol) [0x00007FF718C7D4D3]
+	(No symbol) [0x00007FF718D85F0D]
+	(No symbol) [0x00007FF718D93AAF]
+	(No symbol) [0x00007FF718D8C49F]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF718FE4A1A+284650]
+	(No symbol) [0x00007FF718E82301]
+	(No symbol) [0x00007FF718E7ADA4]
+	(No symbol) [0x00007FF718E7AEF3]
+	(No symbol) [0x00007FF718E6CB36]
+	BaseThreadInitThunk [0x00007FFEDD047374+20]
+	RtlUserThreadStart [0x00007FFEDE2BCC91+33]
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Desktop\autoVideoUploader0.03\autoVideoUploader0.03\removePython\VideoUploaderProject\main.py", line 233, in main
+    main_upload_cycle(config_parser, script_directory, videos_for_this_run, tracker_file, move_files_settings)
+  File "C:\Users\Administrator\Desktop\autoVideoUploader0.03\autoVideoUploader0.03\removePython\VideoUploaderProject\main.py", line 134, in main_upload_cycle
+    if not web_interaction.login_to_website(driver, config):
+  File "C:\Users\Administrator\Desktop\autoVideoUploader0.03\autoVideoUploader0.03\removePython\VideoUploaderProject\web\web_interaction.py", line 572, in login_to_website
+    driver.get(upload_url)
+  File "C:\Users\Administrator\AppData\Roaming\Python\Python39\site-packages\selenium\webdriver\remote\webdriver.py", line 473, in get
+    self.execute(Command.GET, {"url": url})
+  File "C:\Users\Administrator\AppData\Roaming\Python\Python39\site-packages\selenium\webdriver\remote\webdriver.py", line 448, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\Administrator\AppData\Roaming\Python\Python39\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: MicrosoftEdge=136.0.3240.76)
+Stacktrace:
+	GetHandleVerifier [0x00007FF718F1F965+25029]
+	(No symbol) [0x00007FF718E74970]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF71917AA6A+1947706]
+	(No symbol) [0x00007FF718C1C28F]
+	(No symbol) [0x00007FF718CAEAE0]
+	(No symbol) [0x00007FF718CC609A]
+	(No symbol) [0x00007FF718CA8DF3]
+	(No symbol) [0x00007FF718C7D6A6]
+	(No symbol) [0x00007FF718C7CBB3]
+	(No symbol) [0x00007FF718C7D4D3]
+	(No symbol) [0x00007FF718D85F0D]
+	(No symbol) [0x00007FF718D93AAF]
+	(No symbol) [0x00007FF718D8C49F]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF718FE4A1A+284650]
+	(No symbol) [0x00007FF718E82301]
+	(No symbol) [0x00007FF718E7ADA4]
+	(No symbol) [0x00007FF718E7AEF3]
+	(No symbol) [0x00007FF718E6CB36]
+	BaseThreadInitThunk [0x00007FFEDD047374+20]
+	RtlUserThreadStart [0x00007FFEDE2BCC91+33]
+
+2025-05-22 13:26:53,656 - __main__ - INFO - 视频上传任务启动。源文件夹: C:/twitter_download/ShouldHaveCat/ShouldHaveCat, 追踪文件: C:\Users\Administrator\Desktop\autoVideoUploader0.03\autoVideoUploader0.03\removePython\VideoUploaderProject\uploaded_videos_tracker.txt
+2025-05-22 13:26:53,657 - __main__ - INFO - 成功上传的视频将被移动到: C:/twitter_download/ShouldHaveCat/ShouldHaveCat/UploadedArchive
+2025-05-22 13:26:53,657 - __main__ - INFO - 将每隔 8 小时上传最多 10 个视频。
+2025-05-22 13:26:53,658 - __main__ - INFO - 首次将从文件名编号不小于 111 的视频开始处理。
+2025-05-22 13:26:53,658 - __main__ - INFO - 开始新一轮视频上传检查 (间隔: 8 小时, 批次数量: 10)...
+2025-05-22 13:26:53,660 - __main__ - INFO - 找到 109 个潜在待上传视频。
+2025-05-22 13:26:53,660 - __main__ - INFO - 本轮将尝试上传 10 个视频: ['C:/twitter_download/ShouldHaveCat/ShouldHaveCat\\海外猫咪视频大赏112.mp4', 'C:/twitter_download/ShouldHaveCat/ShouldHaveCat\\海外猫咪视频大赏113.mp4', 'C:/twitter_download/ShouldHaveCat/ShouldHaveCat\\海外猫咪视频大赏114.mp4', 'C:/twitter_download/ShouldHaveCat/ShouldHaveCat\\海外猫咪视频大赏115.mp4', 'C:/twitter_download/ShouldHaveCat/ShouldHaveCat\\海外猫咪视频大赏116.mp4', 'C:/twitter_download/ShouldHaveCat/ShouldHaveCat\\海外猫咪视频大赏117.mp4', 'C:/twitter_download/ShouldHaveCat/ShouldHaveCat\\海外猫咪视频大赏118.mp4', 'C:/twitter_download/ShouldHaveCat/ShouldHaveCat\\海外猫咪视频大赏119.mp4', 'C:/twitter_download/ShouldHaveCat/ShouldHaveCat\\海外猫咪视频大赏120.mp4', 'C:/twitter_download/ShouldHaveCat/ShouldHaveCat\\海外猫咪视频大赏122.mp4']
+2025-05-22 13:26:53,663 - __main__ - INFO - ======== 开始处理视频: C:/twitter_download/ShouldHaveCat/ShouldHaveCat\海外猫咪视频大赏112.mp4 ========
+2025-05-22 13:29:13,587 - __main__ - INFO - 视频上传任务启动。源文件夹: C:/twitter_download/ShouldHaveCat/ShouldHaveCat, 追踪文件: C:\Users\Administrator\Desktop\autoVideoUploader0.03\autoVideoUploader0.03\removePython\VideoUploaderProject\uploaded_videos_tracker.txt
+2025-05-22 13:29:13,589 - __main__ - INFO - 成功上传的视频将被移动到: C:/twitter_download/ShouldHaveCat/ShouldHaveCat/UploadedArchive
+2025-05-22 13:29:13,589 - __main__ - INFO - 将每隔 8 小时上传最多 10 个视频。
+2025-05-22 13:29:13,590 - __main__ - INFO - 首次将从文件名编号不小于 111 的视频开始处理。
+2025-05-22 13:29:13,590 - __main__ - INFO - 开始新一轮视频上传检查 (间隔: 8 小时, 批次数量: 10)...
+2025-05-22 13:29:13,593 - __main__ - INFO - 找到 109 个潜在待上传视频。
+2025-05-22 13:29:13,593 - __main__ - INFO - 本轮将尝试上传 10 个视频: ['C:/twitter_download/ShouldHaveCat/ShouldHaveCat\\海外猫咪视频大赏112.mp4', 'C:/twitter_download/ShouldHaveCat/ShouldHaveCat\\海外猫咪视频大赏113.mp4', 'C:/twitter_download/ShouldHaveCat/ShouldHaveCat\\海外猫咪视频大赏114.mp4', 'C:/twitter_download/ShouldHaveCat/ShouldHaveCat\\海外猫咪视频大赏115.mp4', 'C:/twitter_download/ShouldHaveCat/ShouldHaveCat\\海外猫咪视频大赏116.mp4', 'C:/twitter_download/ShouldHaveCat/ShouldHaveCat\\海外猫咪视频大赏117.mp4', 'C:/twitter_download/ShouldHaveCat/ShouldHaveCat\\海外猫咪视频大赏118.mp4', 'C:/twitter_download/ShouldHaveCat/ShouldHaveCat\\海外猫咪视频大赏119.mp4', 'C:/twitter_download/ShouldHaveCat/ShouldHaveCat\\海外猫咪视频大赏120.mp4', 'C:/twitter_download/ShouldHaveCat/ShouldHaveCat\\海外猫咪视频大赏122.mp4']
+2025-05-22 13:29:13,597 - __main__ - INFO - ======== 开始处理视频: C:/twitter_download/ShouldHaveCat/ShouldHaveCat\海外猫咪视频大赏112.mp4 ========
+2025-05-22 13:29:54,540 - __main__ - INFO - 视频 C:/twitter_download/ShouldHaveCat/ShouldHaveCat\海外猫咪视频大赏112.mp4 上传成功并已记录到追踪文件。
+2025-05-22 13:30:04,558 - __main__ - INFO - 视频 海外猫咪视频大赏112.mp4 已成功移动到存档文件夹: C:/twitter_download/ShouldHaveCat/ShouldHaveCat/UploadedArchive\海外猫咪视频大赏112.mp4
+2025-05-22 13:30:04,561 - __main__ - ERROR - 视频 C:/twitter_download/ShouldHaveCat/ShouldHaveCat\海外猫咪视频大赏112.mp4 上传失败。该视频已记录到追踪文件，不会重试。
+2025-05-22 13:30:11,936 - __main__ - INFO - ======== 完成处理视频: C:/twitter_download/ShouldHaveCat/ShouldHaveCat\海外猫咪视频大赏112.mp4 ========
+
+2025-05-22 13:30:11,939 - __main__ - INFO - ======== 开始处理视频: C:/twitter_download/ShouldHaveCat/ShouldHaveCat\海外猫咪视频大赏113.mp4 ========
+2025-05-22 13:30:38,628 - __main__ - INFO - 视频 C:/twitter_download/ShouldHaveCat/ShouldHaveCat\海外猫咪视频大赏113.mp4 上传成功并已记录到追踪文件。
+2025-05-22 13:30:48,636 - __main__ - INFO - 视频 海外猫咪视频大赏113.mp4 已成功移动到存档文件夹: C:/twitter_download/ShouldHaveCat/ShouldHaveCat/UploadedArchive\海外猫咪视频大赏113.mp4
+2025-05-22 13:30:48,640 - __main__ - ERROR - 视频 C:/twitter_download/ShouldHaveCat/ShouldHaveCat\海外猫咪视频大赏113.mp4 上传失败。该视频已记录到追踪文件，不会重试。
+2025-05-22 13:30:55,990 - __main__ - INFO - ======== 完成处理视频: C:/twitter_download/ShouldHaveCat/ShouldHaveCat\海外猫咪视频大赏113.mp4 ========
+
+2025-05-22 13:30:55,993 - __main__ - INFO - ======== 开始处理视频: C:/twitter_download/ShouldHaveCat/ShouldHaveCat\海外猫咪视频大赏114.mp4 ========
+2025-05-22 13:31:43,558 - __main__ - INFO - 视频 C:/twitter_download/ShouldHaveCat/ShouldHaveCat\海外猫咪视频大赏114.mp4 上传成功并已记录到追踪文件。
+2025-05-22 13:31:53,575 - __main__ - INFO - 视频 海外猫咪视频大赏114.mp4 已成功移动到存档文件夹: C:/twitter_download/ShouldHaveCat/ShouldHaveCat/UploadedArchive\海外猫咪视频大赏114.mp4
+2025-05-22 13:31:53,580 - __main__ - ERROR - 视频 C:/twitter_download/ShouldHaveCat/ShouldHaveCat\海外猫咪视频大赏114.mp4 上传失败。该视频已记录到追踪文件，不会重试。
+2025-05-22 13:32:01,087 - __main__ - INFO - ======== 完成处理视频: C:/twitter_download/ShouldHaveCat/ShouldHaveCat\海外猫咪视频大赏114.mp4 ========
+
+2025-05-22 13:32:01,092 - __main__ - INFO - ======== 开始处理视频: C:/twitter_download/ShouldHaveCat/ShouldHaveCat\海外猫咪视频大赏115.mp4 ========
+2025-05-22 13:32:28,171 - __main__ - INFO - 视频 海外猫咪视频大赏115.mp4 已成功移动到存档文件夹: C:/twitter_download/ShouldHaveCat/ShouldHaveCat/UploadedArchive\海外猫咪视频大赏115.mp4
+2025-05-22 13:32:28,177 - __main__ - ERROR - 视频 C:/twitter_download/ShouldHaveCat/ShouldHaveCat\海外猫咪视频大赏115.mp4 上传失败。该视频已记录到追踪文件，不会重试。
+2025-05-22 13:32:35,575 - __main__ - INFO - ======== 完成处理视频: C:/twitter_download/ShouldHaveCat/ShouldHaveCat\海外猫咪视频大赏115.mp4 ========
+
+2025-05-22 13:32:35,579 - __main__ - INFO - ======== 开始处理视频: C:/twitter_download/ShouldHaveCat/ShouldHaveCat\海外猫咪视频大赏116.mp4 ========
+2025-05-22 13:33:13,755 - __main__ - INFO - 视频 C:/twitter_download/ShouldHaveCat/ShouldHaveCat\海外猫咪视频大赏116.mp4 上传成功并已记录到追踪文件。
+2025-05-22 13:33:23,768 - __main__ - INFO - 视频 海外猫咪视频大赏116.mp4 已成功移动到存档文件夹: C:/twitter_download/ShouldHaveCat/ShouldHaveCat/UploadedArchive\海外猫咪视频大赏116.mp4
+2025-05-22 13:33:23,771 - __main__ - ERROR - 视频 C:/twitter_download/ShouldHaveCat/ShouldHaveCat\海外猫咪视频大赏116.mp4 上传失败。该视频已记录到追踪文件，不会重试。
+2025-05-22 13:33:31,189 - __main__ - INFO - ======== 完成处理视频: C:/twitter_download/ShouldHaveCat/ShouldHaveCat\海外猫咪视频大赏116.mp4 ========
+
+2025-05-22 13:33:31,192 - __main__ - INFO - ======== 开始处理视频: C:/twitter_download/ShouldHaveCat/ShouldHaveCat\海外猫咪视频大赏117.mp4 ========
+2025-05-22 13:34:17,067 - __main__ - INFO - 视频 C:/twitter_download/ShouldHaveCat/ShouldHaveCat\海外猫咪视频大赏117.mp4 上传成功并已记录到追踪文件。
+2025-05-22 13:34:27,125 - __main__ - INFO - 视频 海外猫咪视频大赏117.mp4 已成功移动到存档文件夹: C:/twitter_download/ShouldHaveCat/ShouldHaveCat/UploadedArchive\海外猫咪视频大赏117.mp4
+2025-05-22 13:34:27,130 - __main__ - ERROR - 视频 C:/twitter_download/ShouldHaveCat/ShouldHaveCat\海外猫咪视频大赏117.mp4 上传失败。该视频已记录到追踪文件，不会重试。
+2025-05-22 13:34:35,539 - __main__ - INFO - ======== 完成处理视频: C:/twitter_download/ShouldHaveCat/ShouldHaveCat\海外猫咪视频大赏117.mp4 ========
+
+2025-05-22 13:34:35,543 - __main__ - INFO - ======== 开始处理视频: C:/twitter_download/ShouldHaveCat/ShouldHaveCat\海外猫咪视频大赏118.mp4 ========
+2025-05-22 13:35:13,902 - __main__ - INFO - 视频 C:/twitter_download/ShouldHaveCat/ShouldHaveCat\海外猫咪视频大赏118.mp4 上传成功并已记录到追踪文件。
+2025-05-22 13:35:23,916 - __main__ - INFO - 视频 海外猫咪视频大赏118.mp4 已成功移动到存档文件夹: C:/twitter_download/ShouldHaveCat/ShouldHaveCat/UploadedArchive\海外猫咪视频大赏118.mp4
+2025-05-22 13:35:23,920 - __main__ - ERROR - 视频 C:/twitter_download/ShouldHaveCat/ShouldHaveCat\海外猫咪视频大赏118.mp4 上传失败。该视频已记录到追踪文件，不会重试。
+2025-05-22 13:35:31,266 - __main__ - INFO - ======== 完成处理视频: C:/twitter_download/ShouldHaveCat/ShouldHaveCat\海外猫咪视频大赏118.mp4 ========
+
+2025-05-22 13:35:31,266 - __main__ - INFO - ======== 开始处理视频: C:/twitter_download/ShouldHaveCat/ShouldHaveCat\海外猫咪视频大赏119.mp4 ========
+2025-05-22 13:35:57,761 - __main__ - INFO - 视频 C:/twitter_download/ShouldHaveCat/ShouldHaveCat\海外猫咪视频大赏119.mp4 上传成功并已记录到追踪文件。
+2025-05-22 13:36:07,766 - __main__ - INFO - 视频 海外猫咪视频大赏119.mp4 已成功移动到存档文件夹: C:/twitter_download/ShouldHaveCat/ShouldHaveCat/UploadedArchive\海外猫咪视频大赏119.mp4
+2025-05-22 13:36:07,766 - __main__ - ERROR - 视频 C:/twitter_download/ShouldHaveCat/ShouldHaveCat\海外猫咪视频大赏119.mp4 上传失败。该视频已记录到追踪文件，不会重试。
+2025-05-22 13:36:15,095 - __main__ - INFO - ======== 完成处理视频: C:/twitter_download/ShouldHaveCat/ShouldHaveCat\海外猫咪视频大赏119.mp4 ========
+
+2025-05-22 13:36:15,095 - __main__ - INFO - ======== 开始处理视频: C:/twitter_download/ShouldHaveCat/ShouldHaveCat\海外猫咪视频大赏120.mp4 ========
+2025-05-22 13:36:54,579 - __main__ - INFO - 视频 C:/twitter_download/ShouldHaveCat/ShouldHaveCat\海外猫咪视频大赏120.mp4 上传成功并已记录到追踪文件。
+2025-05-22 13:37:04,591 - __main__ - INFO - 视频 海外猫咪视频大赏120.mp4 已成功移动到存档文件夹: C:/twitter_download/ShouldHaveCat/ShouldHaveCat/UploadedArchive\海外猫咪视频大赏120.mp4
+2025-05-22 13:37:04,591 - __main__ - ERROR - 视频 C:/twitter_download/ShouldHaveCat/ShouldHaveCat\海外猫咪视频大赏120.mp4 上传失败。该视频已记录到追踪文件，不会重试。
+2025-05-22 13:37:11,969 - __main__ - INFO - ======== 完成处理视频: C:/twitter_download/ShouldHaveCat/ShouldHaveCat\海外猫咪视频大赏120.mp4 ========
+
+2025-05-22 13:37:11,969 - __main__ - INFO - ======== 开始处理视频: C:/twitter_download/ShouldHaveCat/ShouldHaveCat\海外猫咪视频大赏122.mp4 ========
+2025-05-22 13:37:38,432 - __main__ - INFO - 视频 C:/twitter_download/ShouldHaveCat/ShouldHaveCat\海外猫咪视频大赏122.mp4 上传成功并已记录到追踪文件。
+2025-05-22 13:37:48,443 - __main__ - INFO - 视频 海外猫咪视频大赏122.mp4 已成功移动到存档文件夹: C:/twitter_download/ShouldHaveCat/ShouldHaveCat/UploadedArchive\海外猫咪视频大赏122.mp4
+2025-05-22 13:37:48,443 - __main__ - ERROR - 视频 C:/twitter_download/ShouldHaveCat/ShouldHaveCat\海外猫咪视频大赏122.mp4 上传失败。该视频已记录到追踪文件，不会重试。
+2025-05-22 13:37:55,754 - __main__ - INFO - ======== 完成处理视频: C:/twitter_download/ShouldHaveCat/ShouldHaveCat\海外猫咪视频大赏122.mp4 ========
+
+2025-05-22 13:37:55,754 - __main__ - INFO - 当前批次的视频均已尝试处理。
+2025-05-22 13:37:55,754 - __main__ - INFO - 本轮上传结束。将在 8 小时后再次检查。
+2025-05-22 21:37:55,764 - __main__ - INFO - 开始新一轮视频上传检查 (间隔: 8 小时, 批次数量: 10)...
+2025-05-22 21:37:55,781 - __main__ - INFO - 找到 99 个潜在待上传视频。
+2025-05-22 21:37:55,788 - __main__ - INFO - 本轮将尝试上传 10 个视频: ['C:/twitter_download/ShouldHaveCat/ShouldHaveCat\\海外猫咪视频大赏123.mp4', 'C:/twitter_download/ShouldHaveCat/ShouldHaveCat\\海外猫咪视频大赏124.mp4', 'C:/twitter_download/ShouldHaveCat/ShouldHaveCat\\海外猫咪视频大赏125.mp4', 'C:/twitter_download/ShouldHaveCat/ShouldHaveCat\\海外猫咪视频大赏126.mp4', 'C:/twitter_download/ShouldHaveCat/ShouldHaveCat\\海外猫咪视频大赏127.mp4', 'C:/twitter_download/ShouldHaveCat/ShouldHaveCat\\海外猫咪视频大赏128.mp4', 'C:/twitter_download/ShouldHaveCat/ShouldHaveCat\\海外猫咪视频大赏129.mp4', 'C:/twitter_download/ShouldHaveCat/ShouldHaveCat\\海外猫咪视频大赏130.mp4', 'C:/twitter_download/ShouldHaveCat/ShouldHaveCat\\海外猫咪视频大赏131.mp4', 'C:/twitter_download/ShouldHaveCat/ShouldHaveCat\\海外猫咪视频大赏132.mp4']
+2025-05-22 21:37:55,803 - __main__ - INFO - ======== 开始处理视频: C:/twitter_download/ShouldHaveCat/ShouldHaveCat\海外猫咪视频大赏123.mp4 ========
+2025-05-22 21:38:43,391 - __main__ - INFO - 视频 C:/twitter_download/ShouldHaveCat/ShouldHaveCat\海外猫咪视频大赏123.mp4 上传成功并已记录到追踪文件。
+2025-05-22 21:38:53,411 - __main__ - INFO - 视频 海外猫咪视频大赏123.mp4 已成功移动到存档文件夹: C:/twitter_download/ShouldHaveCat/ShouldHaveCat/UploadedArchive\海外猫咪视频大赏123.mp4
+2025-05-22 21:38:53,417 - __main__ - ERROR - 视频 C:/twitter_download/ShouldHaveCat/ShouldHaveCat\海外猫咪视频大赏123.mp4 上传失败。该视频已记录到追踪文件，不会重试。
+2025-05-22 21:39:00,894 - __main__ - INFO - ======== 完成处理视频: C:/twitter_download/ShouldHaveCat/ShouldHaveCat\海外猫咪视频大赏123.mp4 ========
+
+2025-05-22 21:39:00,901 - __main__ - INFO - ======== 开始处理视频: C:/twitter_download/ShouldHaveCat/ShouldHaveCat\海外猫咪视频大赏124.mp4 ========
+2025-05-22 21:39:41,553 - __main__ - INFO - 视频 C:/twitter_download/ShouldHaveCat/ShouldHaveCat\海外猫咪视频大赏124.mp4 上传成功并已记录到追踪文件。
+2025-05-22 21:39:51,564 - __main__ - INFO - 视频 海外猫咪视频大赏124.mp4 已成功移动到存档文件夹: C:/twitter_download/ShouldHaveCat/ShouldHaveCat/UploadedArchive\海外猫咪视频大赏124.mp4
+2025-05-22 21:39:51,568 - __main__ - ERROR - 视频 C:/twitter_download/ShouldHaveCat/ShouldHaveCat\海外猫咪视频大赏124.mp4 上传失败。该视频已记录到追踪文件，不会重试。
+2025-05-22 21:39:59,000 - __main__ - INFO - ======== 完成处理视频: C:/twitter_download/ShouldHaveCat/ShouldHaveCat\海外猫咪视频大赏124.mp4 ========
+
+2025-05-22 21:39:59,004 - __main__ - INFO - ======== 开始处理视频: C:/twitter_download/ShouldHaveCat/ShouldHaveCat\海外猫咪视频大赏125.mp4 ========
+2025-05-22 21:40:24,727 - __main__ - INFO - 视频 C:/twitter_download/ShouldHaveCat/ShouldHaveCat\海外猫咪视频大赏125.mp4 上传成功并已记录到追踪文件。
+2025-05-22 21:40:34,750 - __main__ - INFO - 视频 海外猫咪视频大赏125.mp4 已成功移动到存档文件夹: C:/twitter_download/ShouldHaveCat/ShouldHaveCat/UploadedArchive\海外猫咪视频大赏125.mp4
+2025-05-22 21:40:34,753 - __main__ - ERROR - 视频 C:/twitter_download/ShouldHaveCat/ShouldHaveCat\海外猫咪视频大赏125.mp4 上传失败。该视频已记录到追踪文件，不会重试。
+2025-05-22 21:40:42,159 - __main__ - INFO - ======== 完成处理视频: C:/twitter_download/ShouldHaveCat/ShouldHaveCat\海外猫咪视频大赏125.mp4 ========
+
+2025-05-22 21:40:42,164 - __main__ - INFO - ======== 开始处理视频: C:/twitter_download/ShouldHaveCat/ShouldHaveCat\海外猫咪视频大赏126.mp4 ========
+2025-05-22 21:41:23,590 - __main__ - INFO - 视频 C:/twitter_download/ShouldHaveCat/ShouldHaveCat\海外猫咪视频大赏126.mp4 上传成功并已记录到追踪文件。
+2025-05-22 21:41:33,606 - __main__ - INFO - 视频 海外猫咪视频大赏126.mp4 已成功移动到存档文件夹: C:/twitter_download/ShouldHaveCat/ShouldHaveCat/UploadedArchive\海外猫咪视频大赏126.mp4
+2025-05-22 21:41:33,606 - __main__ - ERROR - 视频 C:/twitter_download/ShouldHaveCat/ShouldHaveCat\海外猫咪视频大赏126.mp4 上传失败。该视频已记录到追踪文件，不会重试。
+2025-05-22 21:41:40,985 - __main__ - INFO - ======== 完成处理视频: C:/twitter_download/ShouldHaveCat/ShouldHaveCat\海外猫咪视频大赏126.mp4 ========
+
+2025-05-22 21:41:40,985 - __main__ - INFO - ======== 开始处理视频: C:/twitter_download/ShouldHaveCat/ShouldHaveCat\海外猫咪视频大赏127.mp4 ========
+2025-05-22 21:42:17,157 - __main__ - INFO - 视频 C:/twitter_download/ShouldHaveCat/ShouldHaveCat\海外猫咪视频大赏127.mp4 上传成功并已记录到追踪文件。
+2025-05-22 21:42:27,173 - __main__ - INFO - 视频 海外猫咪视频大赏127.mp4 已成功移动到存档文件夹: C:/twitter_download/ShouldHaveCat/ShouldHaveCat/UploadedArchive\海外猫咪视频大赏127.mp4
+2025-05-22 21:42:27,173 - __main__ - ERROR - 视频 C:/twitter_download/ShouldHaveCat/ShouldHaveCat\海外猫咪视频大赏127.mp4 上传失败。该视频已记录到追踪文件，不会重试。
+2025-05-22 21:42:34,544 - __main__ - INFO - ======== 完成处理视频: C:/twitter_download/ShouldHaveCat/ShouldHaveCat\海外猫咪视频大赏127.mp4 ========
+
+2025-05-22 21:42:34,544 - __main__ - INFO - ======== 开始处理视频: C:/twitter_download/ShouldHaveCat/ShouldHaveCat\海外猫咪视频大赏128.mp4 ========
+2025-05-22 21:43:40,690 - __main__ - INFO - 视频 海外猫咪视频大赏128.mp4 已成功移动到存档文件夹: C:/twitter_download/ShouldHaveCat/ShouldHaveCat/UploadedArchive\海外猫咪视频大赏128.mp4
+2025-05-22 21:43:40,690 - __main__ - ERROR - 视频 C:/twitter_download/ShouldHaveCat/ShouldHaveCat\海外猫咪视频大赏128.mp4 上传失败。该视频已记录到追踪文件，不会重试。
+2025-05-22 21:44:01,992 - __main__ - INFO - ======== 完成处理视频: C:/twitter_download/ShouldHaveCat/ShouldHaveCat\海外猫咪视频大赏128.mp4 ========
+
+2025-05-22 21:44:01,992 - __main__ - INFO - ======== 开始处理视频: C:/twitter_download/ShouldHaveCat/ShouldHaveCat\海外猫咪视频大赏129.mp4 ========
+2025-05-22 21:44:43,110 - __main__ - INFO - 视频 C:/twitter_download/ShouldHaveCat/ShouldHaveCat\海外猫咪视频大赏129.mp4 上传成功并已记录到追踪文件。
+2025-05-22 21:44:53,115 - __main__ - INFO - 视频 海外猫咪视频大赏129.mp4 已成功移动到存档文件夹: C:/twitter_download/ShouldHaveCat/ShouldHaveCat/UploadedArchive\海外猫咪视频大赏129.mp4
+2025-05-22 21:44:53,115 - __main__ - ERROR - 视频 C:/twitter_download/ShouldHaveCat/ShouldHaveCat\海外猫咪视频大赏129.mp4 上传失败。该视频已记录到追踪文件，不会重试。
+2025-05-22 21:45:00,451 - __main__ - INFO - ======== 完成处理视频: C:/twitter_download/ShouldHaveCat/ShouldHaveCat\海外猫咪视频大赏129.mp4 ========
+
+2025-05-22 21:45:00,451 - __main__ - INFO - ======== 开始处理视频: C:/twitter_download/ShouldHaveCat/ShouldHaveCat\海外猫咪视频大赏130.mp4 ========
+2025-05-22 21:45:55,547 - __main__ - INFO - 视频 海外猫咪视频大赏130.mp4 已成功移动到存档文件夹: C:/twitter_download/ShouldHaveCat/ShouldHaveCat/UploadedArchive\海外猫咪视频大赏130.mp4
+2025-05-22 21:45:55,547 - __main__ - ERROR - 视频 C:/twitter_download/ShouldHaveCat/ShouldHaveCat\海外猫咪视频大赏130.mp4 上传失败。该视频已记录到追踪文件，不会重试。
+2025-05-22 21:46:16,954 - __main__ - INFO - ======== 完成处理视频: C:/twitter_download/ShouldHaveCat/ShouldHaveCat\海外猫咪视频大赏130.mp4 ========
+
+2025-05-22 21:46:16,954 - __main__ - INFO - ======== 开始处理视频: C:/twitter_download/ShouldHaveCat/ShouldHaveCat\海外猫咪视频大赏131.mp4 ========
+2025-05-22 21:47:05,798 - __main__ - INFO - 视频 海外猫咪视频大赏131.mp4 已成功移动到存档文件夹: C:/twitter_download/ShouldHaveCat/ShouldHaveCat/UploadedArchive\海外猫咪视频大赏131.mp4
+2025-05-22 21:47:05,814 - __main__ - ERROR - 视频 C:/twitter_download/ShouldHaveCat/ShouldHaveCat\海外猫咪视频大赏131.mp4 上传失败。该视频已记录到追踪文件，不会重试。
+2025-05-22 21:47:13,141 - __main__ - INFO - ======== 完成处理视频: C:/twitter_download/ShouldHaveCat/ShouldHaveCat\海外猫咪视频大赏131.mp4 ========
+
+2025-05-22 21:47:13,141 - __main__ - INFO - ======== 开始处理视频: C:/twitter_download/ShouldHaveCat/ShouldHaveCat\海外猫咪视频大赏132.mp4 ========
+2025-05-22 21:47:55,916 - __main__ - INFO - 视频 C:/twitter_download/ShouldHaveCat/ShouldHaveCat\海外猫咪视频大赏132.mp4 上传成功并已记录到追踪文件。
+2025-05-22 21:48:05,924 - __main__ - INFO - 视频 海外猫咪视频大赏132.mp4 已成功移动到存档文件夹: C:/twitter_download/ShouldHaveCat/ShouldHaveCat/UploadedArchive\海外猫咪视频大赏132.mp4
+2025-05-22 21:48:05,925 - __main__ - ERROR - 视频 C:/twitter_download/ShouldHaveCat/ShouldHaveCat\海外猫咪视频大赏132.mp4 上传失败。该视频已记录到追踪文件，不会重试。
+2025-05-22 21:48:13,266 - __main__ - INFO - ======== 完成处理视频: C:/twitter_download/ShouldHaveCat/ShouldHaveCat\海外猫咪视频大赏132.mp4 ========
+
+2025-05-22 21:48:13,266 - __main__ - INFO - 当前批次的视频均已尝试处理。
+2025-05-22 21:48:13,266 - __main__ - INFO - 本轮上传结束。将在 8 小时后再次检查。

@@ -1,0 +1,1175 @@
+[1747638749.889][INFO]: Starting Microsoft Edge WebDriver 136.0.3240.76 (77e9ec69748f08de141572c1eec5e1ad497c7be6) on port 8529
+[1747638749.889][INFO]: Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
+[1747638749.953][INFO]: msedgedriver was started successfully on port 8529
+[1747638750.396][INFO]: [0a2528860b5a6b6485b22bfe088209bc] COMMAND InitSession {
+   "capabilities": {
+      "alwaysMatch": {
+         "browserName": "MicrosoftEdge",
+         "ms:edgeOptions": {
+            "args": [ "--disable-gpu", "--no-sandbox", "--disable-dev-shm-usage", "ignore-certificate-errors", "--disable-blink-features=AutomationControlled" ],
+            "binary": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+            "excludeSwitches": [ "enable-automation", "enable-logging" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "profile.password_manager_enabled": false
+            }
+         },
+         "pageLoadStrategy": "normal"
+      },
+      "firstMatch": [ {
+      } ]
+   }
+}
+[1747638750.399][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1747638750.400][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1747638750.401][INFO]: ChromeDriver supports communication with Chrome via pipes. This is more reliable and more secure.
+[1747638750.401][INFO]: Use the --remote-debugging-pipe Chrome switch instead of the default --remote-debugging-port to enable this communication mode.
+[1747638750.405][INFO]: WEBVIEW2_ADDITIONAL_BROWSER_ARGUMENTS = 
+[1747638750.405][INFO]: Launching Microsoft Edge: "C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" --allow-pre-commit-input --disable-background-networking --disable-backgrounding-occluded-windows --disable-blink-features=AutomationControlled --disable-client-side-phishing-detection --disable-default-apps --disable-dev-shm-usage --disable-gpu --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --ignore-certificate-errors --log-level=0 --no-first-run --no-sandbox --no-service-autorun --password-store=basic --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\Sterman\AppData\Local\Temp\scoped_dir45360_838388033" data:,
+[1747638752.085][INFO]: resolved localhost to ["127.0.0.1","::1"]
+[1747638753.380][INFO]: [0a2528860b5a6b6485b22bfe088209bc] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": false,
+      "browserName": "MicrosoftEdge",
+      "browserVersion": "136.0.3240.64",
+      "fedcm:accounts": true,
+      "ms:edgeOptions": {
+         "debuggerAddress": "localhost:8532"
+      },
+      "msedge": {
+         "msedgedriverVersion": "136.0.3240.76 (77e9ec69748f08de141572c1eec5e1ad497c7be6)",
+         "userDataDir": "C:\\Users\\Sterman\\AppData\\Local\\Temp\\scoped_dir45360_838388033"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:extension:credBlob": true,
+      "webauthn:extension:largeBlob": true,
+      "webauthn:extension:minPinLength": true,
+      "webauthn:extension:prf": true,
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "0a2528860b5a6b6485b22bfe088209bc"
+}
+[1747638753.383][INFO]: [0a2528860b5a6b6485b22bfe088209bc] COMMAND Navigate {
+   "url": "https://mp.toutiao.com"
+}
+[1747638753.383][INFO]: Waiting for pending navigations...
+[1747638753.383][INFO]: Done waiting for pending navigations. Status: ok
+[1747638754.038][INFO]: Waiting for pending navigations...
+[1747638755.649][INFO]: Done waiting for pending navigations. Status: ok
+[1747638755.649][INFO]: [0a2528860b5a6b6485b22bfe088209bc] RESPONSE Navigate
+[1747638755.652][INFO]: [0a2528860b5a6b6485b22bfe088209bc] COMMAND AddCookie {
+   "cookie": {
+      "domain": "mp.toutiao.com",
+      "expiry": 1752511926,
+      "httpOnly": false,
+      "name": "s_v_web_id",
+      "path": "/",
+      "sameSite": "Lax",
+      "secure": false,
+      "value": "verify_maplxkk1_AvhEUGds_w4Pb_4J7a_9tts_FMkrujJ6OZPh"
+   }
+}
+[1747638755.652][INFO]: Waiting for pending navigations...
+[1747638755.653][INFO]: Done waiting for pending navigations. Status: ok
+[1747638755.657][INFO]: Waiting for pending navigations...
+[1747638755.657][INFO]: Done waiting for pending navigations. Status: ok
+[1747638755.657][INFO]: [0a2528860b5a6b6485b22bfe088209bc] RESPONSE AddCookie
+[1747638755.659][INFO]: [0a2528860b5a6b6485b22bfe088209bc] COMMAND AddCookie {
+   "cookie": {
+      "domain": ".toutiao.com",
+      "httpOnly": false,
+      "name": "xg_p_tos_token",
+      "path": "/",
+      "sameSite": "Lax",
+      "secure": false,
+      "value": "36329e1daa369bfe4ca2b89ebb12f33a"
+   }
+}
+[1747638755.659][INFO]: Waiting for pending navigations...
+[1747638755.660][INFO]: Done waiting for pending navigations. Status: ok
+[1747638755.662][INFO]: Waiting for pending navigations...
+[1747638755.663][INFO]: Done waiting for pending navigations. Status: ok
+[1747638755.663][INFO]: [0a2528860b5a6b6485b22bfe088209bc] RESPONSE AddCookie
+[1747638755.664][INFO]: [0a2528860b5a6b6485b22bfe088209bc] COMMAND AddCookie {
+   "cookie": {
+      "domain": "mp.toutiao.com",
+      "httpOnly": false,
+      "name": "csrf_session_id",
+      "path": "/",
+      "sameSite": "None",
+      "secure": true,
+      "value": "c66522fe70c61f9cca6d248e6741fcc4"
+   }
+}
+[1747638755.664][INFO]: Waiting for pending navigations...
+[1747638755.665][INFO]: Done waiting for pending navigations. Status: ok
+[1747638755.668][INFO]: Waiting for pending navigations...
+[1747638755.668][INFO]: Done waiting for pending navigations. Status: ok
+[1747638755.668][INFO]: [0a2528860b5a6b6485b22bfe088209bc] RESPONSE AddCookie
+[1747638755.670][INFO]: [0a2528860b5a6b6485b22bfe088209bc] COMMAND AddCookie {
+   "cookie": {
+      "domain": ".toutiao.com",
+      "expiry": 1752511917,
+      "httpOnly": true,
+      "name": "ssid_ucp_v1",
+      "path": "/",
+      "sameSite": "None",
+      "secure": true,
+      "value": "1.0.0-KGY2NDFlMzhkNDI5ZjdlMzNhMmU2NGRkZmU1Yzg5OTM4ZWUzMjUyNTIKFgiM1KDFrsykBxCtt5jBBhgYOAJA8QcaAmhsIiAxOTgzNTE0MjllMGYxNjJmM2NjOWNkYjZkYjUwMTc5YQ"
+   }
+}
+[1747638755.670][INFO]: Waiting for pending navigations...
+[1747638755.671][INFO]: Done waiting for pending navigations. Status: ok
+[1747638755.674][INFO]: Waiting for pending navigations...
+[1747638755.674][INFO]: Done waiting for pending navigations. Status: ok
+[1747638755.674][INFO]: [0a2528860b5a6b6485b22bfe088209bc] RESPONSE AddCookie
+[1747638755.676][INFO]: [0a2528860b5a6b6485b22bfe088209bc] COMMAND AddCookie {
+   "cookie": {
+      "domain": ".toutiao.com",
+      "expiry": 1752511917,
+      "httpOnly": true,
+      "name": "sid_ucp_v1",
+      "path": "/",
+      "sameSite": "Lax",
+      "secure": true,
+      "value": "1.0.0-KGY2NDFlMzhkNDI5ZjdlMzNhMmU2NGRkZmU1Yzg5OTM4ZWUzMjUyNTIKFgiM1KDFrsykBxCtt5jBBhgYOAJA8QcaAmhsIiAxOTgzNTE0MjllMGYxNjJmM2NjOWNkYjZkYjUwMTc5YQ"
+   }
+}
+[1747638755.676][INFO]: Waiting for pending navigations...
+[1747638755.677][INFO]: Done waiting for pending navigations. Status: ok
+[1747638755.679][INFO]: Waiting for pending navigations...
+[1747638755.680][INFO]: Done waiting for pending navigations. Status: ok
+[1747638755.680][INFO]: [0a2528860b5a6b6485b22bfe088209bc] RESPONSE AddCookie
+[1747638755.682][INFO]: [0a2528860b5a6b6485b22bfe088209bc] COMMAND AddCookie {
+   "cookie": {
+      "domain": ".toutiao.com",
+      "expiry": 1752511917,
+      "httpOnly": true,
+      "name": "is_staff_user",
+      "path": "/",
+      "sameSite": "Lax",
+      "secure": false,
+      "value": "false"
+   }
+}
+[1747638755.682][INFO]: Waiting for pending navigations...
+[1747638755.683][INFO]: Done waiting for pending navigations. Status: ok
+[1747638755.685][INFO]: Waiting for pending navigations...
+[1747638755.686][INFO]: Done waiting for pending navigations. Status: ok
+[1747638755.686][INFO]: [0a2528860b5a6b6485b22bfe088209bc] RESPONSE AddCookie
+[1747638755.688][INFO]: [0a2528860b5a6b6485b22bfe088209bc] COMMAND AddCookie {
+   "cookie": {
+      "domain": ".toutiao.com",
+      "expiry": 1752511917,
+      "httpOnly": true,
+      "name": "sessionid_ss",
+      "path": "/",
+      "sameSite": "None",
+      "secure": true,
+      "value": "198351429e0f162f3cc9cdb6db50179a"
+   }
+}
+[1747638755.688][INFO]: Waiting for pending navigations...
+[1747638755.688][INFO]: Done waiting for pending navigations. Status: ok
+[1747638755.691][INFO]: Waiting for pending navigations...
+[1747638755.691][INFO]: Done waiting for pending navigations. Status: ok
+[1747638755.691][INFO]: [0a2528860b5a6b6485b22bfe088209bc] RESPONSE AddCookie
+[1747638755.693][INFO]: [0a2528860b5a6b6485b22bfe088209bc] COMMAND AddCookie {
+   "cookie": {
+      "domain": ".toutiao.com",
+      "expiry": 1752511917,
+      "httpOnly": true,
+      "name": "sessionid",
+      "path": "/",
+      "sameSite": "Lax",
+      "secure": false,
+      "value": "198351429e0f162f3cc9cdb6db50179a"
+   }
+}
+[1747638755.693][INFO]: Waiting for pending navigations...
+[1747638755.694][INFO]: Done waiting for pending navigations. Status: ok
+[1747638755.696][INFO]: Waiting for pending navigations...
+[1747638755.697][INFO]: Done waiting for pending navigations. Status: ok
+[1747638755.697][INFO]: [0a2528860b5a6b6485b22bfe088209bc] RESPONSE AddCookie
+[1747638755.698][INFO]: [0a2528860b5a6b6485b22bfe088209bc] COMMAND AddCookie {
+   "cookie": {
+      "domain": ".toutiao.com",
+      "expiry": 1752511917,
+      "httpOnly": true,
+      "name": "sid_tt",
+      "path": "/",
+      "sameSite": "Lax",
+      "secure": false,
+      "value": "198351429e0f162f3cc9cdb6db50179a"
+   }
+}
+[1747638755.698][INFO]: Waiting for pending navigations...
+[1747638755.699][INFO]: Done waiting for pending navigations. Status: ok
+[1747638755.701][INFO]: Waiting for pending navigations...
+[1747638755.702][INFO]: Done waiting for pending navigations. Status: ok
+[1747638755.702][INFO]: [0a2528860b5a6b6485b22bfe088209bc] RESPONSE AddCookie
+[1747638755.704][INFO]: [0a2528860b5a6b6485b22bfe088209bc] COMMAND AddCookie {
+   "cookie": {
+      "domain": ".toutiao.com",
+      "expiry": 1752511917,
+      "httpOnly": true,
+      "name": "uid_tt_ss",
+      "path": "/",
+      "sameSite": "None",
+      "secure": true,
+      "value": "978433a70bed5709bed5dd70fc4f0154"
+   }
+}
+[1747638755.704][INFO]: Waiting for pending navigations...
+[1747638755.705][INFO]: Done waiting for pending navigations. Status: ok
+[1747638755.707][INFO]: Waiting for pending navigations...
+[1747638755.707][INFO]: Done waiting for pending navigations. Status: ok
+[1747638755.708][INFO]: [0a2528860b5a6b6485b22bfe088209bc] RESPONSE AddCookie
+[1747638755.709][INFO]: [0a2528860b5a6b6485b22bfe088209bc] COMMAND AddCookie {
+   "cookie": {
+      "domain": ".toutiao.com",
+      "expiry": 1778431916,
+      "httpOnly": true,
+      "name": "sid_guard",
+      "path": "/",
+      "sameSite": "Lax",
+      "secure": false,
+      "value": "198351429e0f162f3cc9cdb6db50179a%7C1747327917%7C5184001%7CMon%2C+14-Jul-2025+16%3A51%3A58+GMT"
+   }
+}
+[1747638755.709][INFO]: Waiting for pending navigations...
+[1747638755.710][INFO]: Done waiting for pending navigations. Status: ok
+[1747638755.712][INFO]: Waiting for pending navigations...
+[1747638755.713][INFO]: Done waiting for pending navigations. Status: ok
+[1747638755.713][INFO]: [0a2528860b5a6b6485b22bfe088209bc] RESPONSE AddCookie
+[1747638755.715][INFO]: [0a2528860b5a6b6485b22bfe088209bc] COMMAND AddCookie {
+   "cookie": {
+      "domain": ".toutiao.com",
+      "expiry": 1749919916,
+      "httpOnly": true,
+      "name": "passport_auth_status_ss",
+      "path": "/",
+      "sameSite": "None",
+      "secure": true,
+      "value": "917d578e8383fde7335f409dd7ba079e%2Cccdf9f03adddc03fbe18b30821da3147"
+   }
+}
+[1747638755.715][INFO]: Waiting for pending navigations...
+[1747638755.715][INFO]: Done waiting for pending navigations. Status: ok
+[1747638755.720][INFO]: Waiting for pending navigations...
+[1747638755.721][INFO]: Done waiting for pending navigations. Status: ok
+[1747638755.721][INFO]: [0a2528860b5a6b6485b22bfe088209bc] RESPONSE AddCookie
+[1747638755.723][INFO]: [0a2528860b5a6b6485b22bfe088209bc] COMMAND AddCookie {
+   "cookie": {
+      "domain": ".toutiao.com",
+      "expiry": 1752511916,
+      "httpOnly": true,
+      "name": "toutiao_sso_user_ss",
+      "path": "/",
+      "sameSite": "None",
+      "secure": true,
+      "value": "608be18ca8f2dbc27518faa5410a619f"
+   }
+}
+[1747638755.723][INFO]: Waiting for pending navigations...
+[1747638755.723][INFO]: Done waiting for pending navigations. Status: ok
+[1747638755.726][INFO]: Waiting for pending navigations...
+[1747638755.727][INFO]: Done waiting for pending navigations. Status: ok
+[1747638755.727][INFO]: [0a2528860b5a6b6485b22bfe088209bc] RESPONSE AddCookie
+[1747638755.729][INFO]: [0a2528860b5a6b6485b22bfe088209bc] COMMAND AddCookie {
+   "cookie": {
+      "domain": ".toutiao.com",
+      "expiry": 1752511916,
+      "httpOnly": true,
+      "name": "sso_uid_tt_ss",
+      "path": "/",
+      "sameSite": "None",
+      "secure": true,
+      "value": "6c1bccdbb84783c931cd4ab32df54895"
+   }
+}
+[1747638755.729][INFO]: Waiting for pending navigations...
+[1747638755.729][INFO]: Done waiting for pending navigations. Status: ok
+[1747638755.732][INFO]: Waiting for pending navigations...
+[1747638755.732][INFO]: Done waiting for pending navigations. Status: ok
+[1747638755.732][INFO]: [0a2528860b5a6b6485b22bfe088209bc] RESPONSE AddCookie
+[1747638755.734][INFO]: [0a2528860b5a6b6485b22bfe088209bc] COMMAND AddCookie {
+   "cookie": {
+      "domain": "mp.toutiao.com",
+      "expiry": 1747932717,
+      "httpOnly": false,
+      "name": "gfgarrcache_4e4145dd",
+      "path": "/profile_v4/",
+      "sameSite": "Lax",
+      "secure": false,
+      "value": "1"
+   }
+}
+[1747638755.734][INFO]: Waiting for pending navigations...
+[1747638755.735][INFO]: Done waiting for pending navigations. Status: ok
+[1747638755.737][INFO]: Waiting for pending navigations...
+[1747638755.738][INFO]: Done waiting for pending navigations. Status: ok
+[1747638755.738][INFO]: [0a2528860b5a6b6485b22bfe088209bc] RESPONSE AddCookie
+[1747638755.739][INFO]: [0a2528860b5a6b6485b22bfe088209bc] COMMAND AddCookie {
+   "cookie": {
+      "domain": ".toutiao.com",
+      "expiry": 1752511916,
+      "httpOnly": true,
+      "name": "sso_uid_tt",
+      "path": "/",
+      "sameSite": "Lax",
+      "secure": false,
+      "value": "6c1bccdbb84783c931cd4ab32df54895"
+   }
+}
+[1747638755.740][INFO]: Waiting for pending navigations...
+[1747638755.740][INFO]: Done waiting for pending navigations. Status: ok
+[1747638755.742][INFO]: Waiting for pending navigations...
+[1747638755.743][INFO]: Done waiting for pending navigations. Status: ok
+[1747638755.743][INFO]: [0a2528860b5a6b6485b22bfe088209bc] RESPONSE AddCookie
+[1747638755.744][INFO]: [0a2528860b5a6b6485b22bfe088209bc] COMMAND AddCookie {
+   "cookie": {
+      "domain": ".toutiao.com",
+      "expiry": 1749919916,
+      "httpOnly": true,
+      "name": "passport_auth_status",
+      "path": "/",
+      "sameSite": "Lax",
+      "secure": false,
+      "value": "917d578e8383fde7335f409dd7ba079e%2Cccdf9f03adddc03fbe18b30821da3147"
+   }
+}
+[1747638755.744][INFO]: Waiting for pending navigations...
+[1747638755.745][INFO]: Done waiting for pending navigations. Status: ok
+[1747638755.747][INFO]: Waiting for pending navigations...
+[1747638755.747][INFO]: Done waiting for pending navigations. Status: ok
+[1747638755.747][INFO]: [0a2528860b5a6b6485b22bfe088209bc] RESPONSE AddCookie
+[1747638755.749][INFO]: [0a2528860b5a6b6485b22bfe088209bc] COMMAND AddCookie {
+   "cookie": {
+      "domain": ".toutiao.com",
+      "expiry": 1749919916,
+      "httpOnly": true,
+      "name": "sso_auth_status_ss",
+      "path": "/",
+      "sameSite": "None",
+      "secure": true,
+      "value": "571d12de9affee6be51a12e596e5ca20"
+   }
+}
+[1747638755.749][INFO]: Waiting for pending navigations...
+[1747638755.749][INFO]: Done waiting for pending navigations. Status: ok
+[1747638755.752][INFO]: Waiting for pending navigations...
+[1747638755.752][INFO]: Done waiting for pending navigations. Status: ok
+[1747638755.752][INFO]: [0a2528860b5a6b6485b22bfe088209bc] RESPONSE AddCookie
+[1747638755.754][INFO]: [0a2528860b5a6b6485b22bfe088209bc] COMMAND AddCookie {
+   "cookie": {
+      "domain": ".toutiao.com",
+      "expiry": 1749919916,
+      "httpOnly": true,
+      "name": "sso_auth_status",
+      "path": "/",
+      "sameSite": "Lax",
+      "secure": false,
+      "value": "571d12de9affee6be51a12e596e5ca20"
+   }
+}
+[1747638755.754][INFO]: Waiting for pending navigations...
+[1747638755.754][INFO]: Done waiting for pending navigations. Status: ok
+[1747638755.756][INFO]: Waiting for pending navigations...
+[1747638755.757][INFO]: Done waiting for pending navigations. Status: ok
+[1747638755.757][INFO]: [0a2528860b5a6b6485b22bfe088209bc] RESPONSE AddCookie
+[1747638755.758][INFO]: [0a2528860b5a6b6485b22bfe088209bc] COMMAND AddCookie {
+   "cookie": {
+      "domain": ".toutiao.com",
+      "httpOnly": false,
+      "name": "biz_trace_id",
+      "path": "/",
+      "sameSite": "Lax",
+      "secure": false,
+      "value": "40db0d63"
+   }
+}
+[1747638755.758][INFO]: Waiting for pending navigations...
+[1747638755.759][INFO]: Done waiting for pending navigations. Status: ok
+[1747638755.761][INFO]: Waiting for pending navigations...
+[1747638755.762][INFO]: Done waiting for pending navigations. Status: ok
+[1747638755.762][INFO]: [0a2528860b5a6b6485b22bfe088209bc] RESPONSE AddCookie
+[1747638755.763][INFO]: [0a2528860b5a6b6485b22bfe088209bc] COMMAND AddCookie {
+   "cookie": {
+      "domain": ".toutiao.com",
+      "expiry": 1752511917,
+      "httpOnly": true,
+      "name": "uid_tt",
+      "path": "/",
+      "sameSite": "Lax",
+      "secure": false,
+      "value": "978433a70bed5709bed5dd70fc4f0154"
+   }
+}
+[1747638755.763][INFO]: Waiting for pending navigations...
+[1747638755.764][INFO]: Done waiting for pending navigations. Status: ok
+[1747638755.766][INFO]: Waiting for pending navigations...
+[1747638755.767][INFO]: Done waiting for pending navigations. Status: ok
+[1747638755.767][INFO]: [0a2528860b5a6b6485b22bfe088209bc] RESPONSE AddCookie
+[1747638755.768][INFO]: [0a2528860b5a6b6485b22bfe088209bc] COMMAND AddCookie {
+   "cookie": {
+      "domain": "mp.toutiao.com",
+      "expiry": 1747587069,
+      "httpOnly": false,
+      "name": "gfkadpd",
+      "path": "/",
+      "sameSite": "None",
+      "secure": true,
+      "value": "1231,25897"
+   }
+}
+[1747638755.768][INFO]: Waiting for pending navigations...
+[1747638755.769][INFO]: Done waiting for pending navigations. Status: ok
+[1747638755.771][INFO]: Waiting for pending navigations...
+[1747638755.772][INFO]: Done waiting for pending navigations. Status: ok
+[1747638755.772][INFO]: [0a2528860b5a6b6485b22bfe088209bc] RESPONSE AddCookie
+[1747638755.773][INFO]: [0a2528860b5a6b6485b22bfe088209bc] COMMAND AddCookie {
+   "cookie": {
+      "domain": ".toutiao.com",
+      "expiry": 1757695916,
+      "httpOnly": true,
+      "name": "n_mh",
+      "path": "/",
+      "sameSite": "Lax",
+      "secure": false,
+      "value": "rDuZz-aoWmkhYtDap6Es0acvWAfgKva_TGSGQurDq2o"
+   }
+}
+[1747638755.773][INFO]: Waiting for pending navigations...
+[1747638755.774][INFO]: Done waiting for pending navigations. Status: ok
+[1747638755.781][INFO]: Waiting for pending navigations...
+[1747638755.786][INFO]: Done waiting for pending navigations. Status: ok
+[1747638755.786][INFO]: [0a2528860b5a6b6485b22bfe088209bc] RESPONSE AddCookie
+[1747638755.788][INFO]: [0a2528860b5a6b6485b22bfe088209bc] COMMAND AddCookie {
+   "cookie": {
+      "domain": ".mp.toutiao.com",
+      "expiry": 1747414272,
+      "httpOnly": false,
+      "name": "_gid",
+      "path": "/",
+      "sameSite": "Lax",
+      "secure": false,
+      "value": "GA1.3.1817032441.1747327873"
+   }
+}
+[1747638755.788][INFO]: Waiting for pending navigations...
+[1747638755.790][INFO]: Done waiting for pending navigations. Status: ok
+[1747638755.793][INFO]: Waiting for pending navigations...
+[1747638755.793][INFO]: Done waiting for pending navigations. Status: ok
+[1747638755.794][INFO]: [0a2528860b5a6b6485b22bfe088209bc] RESPONSE AddCookie
+[1747638755.795][INFO]: [0a2528860b5a6b6485b22bfe088209bc] COMMAND AddCookie {
+   "cookie": {
+      "domain": "mp.toutiao.com",
+      "httpOnly": false,
+      "name": "xigua_csrf_token",
+      "path": "/",
+      "sameSite": "Lax",
+      "secure": false,
+      "value": "SH6E6FmS23rrNfsiHFaqNZnN"
+   }
+}
+[1747638755.795][INFO]: Waiting for pending navigations...
+[1747638755.796][INFO]: Done waiting for pending navigations. Status: ok
+[1747638755.798][INFO]: Waiting for pending navigations...
+[1747638755.799][INFO]: Done waiting for pending navigations. Status: ok
+[1747638755.799][INFO]: [0a2528860b5a6b6485b22bfe088209bc] RESPONSE AddCookie
+[1747638755.801][INFO]: [0a2528860b5a6b6485b22bfe088209bc] COMMAND AddCookie {
+   "cookie": {
+      "domain": ".toutiao.com",
+      "expiry": 1752511916,
+      "httpOnly": true,
+      "name": "toutiao_sso_user",
+      "path": "/",
+      "sameSite": "Lax",
+      "secure": false,
+      "value": "608be18ca8f2dbc27518faa5410a619f"
+   }
+}
+[1747638755.801][INFO]: Waiting for pending navigations...
+[1747638755.801][INFO]: Done waiting for pending navigations. Status: ok
+[1747638755.806][INFO]: Waiting for pending navigations...
+[1747638755.807][INFO]: Done waiting for pending navigations. Status: ok
+[1747638755.807][INFO]: [0a2528860b5a6b6485b22bfe088209bc] RESPONSE AddCookie
+[1747638755.809][INFO]: [0a2528860b5a6b6485b22bfe088209bc] COMMAND AddCookie {
+   "cookie": {
+      "domain": ".toutiao.com",
+      "expiry": 1752511871,
+      "httpOnly": false,
+      "name": "passport_csrf_token_default",
+      "path": "/",
+      "sameSite": "Lax",
+      "secure": false,
+      "value": "91fa87b736714c2cdd8fc20bd75840e1"
+   }
+}
+[1747638755.809][INFO]: Waiting for pending navigations...
+[1747638755.809][INFO]: Done waiting for pending navigations. Status: ok
+[1747638755.812][INFO]: Waiting for pending navigations...
+[1747638755.813][INFO]: Done waiting for pending navigations. Status: ok
+[1747638755.813][INFO]: [0a2528860b5a6b6485b22bfe088209bc] RESPONSE AddCookie
+[1747638755.814][INFO]: [0a2528860b5a6b6485b22bfe088209bc] COMMAND AddCookie {
+   "cookie": {
+      "domain": ".toutiao.com",
+      "expiry": 1752511916,
+      "httpOnly": true,
+      "name": "ssid_ucp_sso_v1",
+      "path": "/",
+      "sameSite": "None",
+      "secure": true,
+      "value": "1.0.0-KDQwZGU2ZDQ4YmM1ZWE2MmU5ZmY3YWY5MGZkZmNjYzQzMjMwMzQxYTAKFgiM1KDFrsykBxCst5jBBhgYOAJA8QcaAmhsIiA2MDhiZTE4Y2E4ZjJkYmMyNzUxOGZhYTU0MTBhNjE5Zg"
+   }
+}
+[1747638755.814][INFO]: Waiting for pending navigations...
+[1747638755.815][INFO]: Done waiting for pending navigations. Status: ok
+[1747638755.818][INFO]: Waiting for pending navigations...
+[1747638755.818][INFO]: Done waiting for pending navigations. Status: ok
+[1747638755.818][INFO]: [0a2528860b5a6b6485b22bfe088209bc] RESPONSE AddCookie
+[1747638755.820][INFO]: [0a2528860b5a6b6485b22bfe088209bc] COMMAND AddCookie {
+   "cookie": {
+      "domain": ".toutiao.com",
+      "expiry": 1752511871,
+      "httpOnly": false,
+      "name": "passport_csrf_token",
+      "path": "/",
+      "sameSite": "None",
+      "secure": true,
+      "value": "91fa87b736714c2cdd8fc20bd75840e1"
+   }
+}
+[1747638755.820][INFO]: Waiting for pending navigations...
+[1747638755.822][INFO]: Done waiting for pending navigations. Status: ok
+[1747638755.825][INFO]: Waiting for pending navigations...
+[1747638755.826][INFO]: Done waiting for pending navigations. Status: ok
+[1747638755.826][INFO]: [0a2528860b5a6b6485b22bfe088209bc] RESPONSE AddCookie
+[1747638755.828][INFO]: [0a2528860b5a6b6485b22bfe088209bc] COMMAND AddCookie {
+   "cookie": {
+      "domain": ".toutiao.com",
+      "expiry": 1752511916,
+      "httpOnly": true,
+      "name": "sid_ucp_sso_v1",
+      "path": "/",
+      "sameSite": "Lax",
+      "secure": true,
+      "value": "1.0.0-KDQwZGU2ZDQ4YmM1ZWE2MmU5ZmY3YWY5MGZkZmNjYzQzMjMwMzQxYTAKFgiM1KDFrsykBxCst5jBBhgYOAJA8QcaAmhsIiA2MDhiZTE4Y2E4ZjJkYmMyNzUxOGZhYTU0MTBhNjE5Zg"
+   }
+}
+[1747638755.828][INFO]: Waiting for pending navigations...
+[1747638755.828][INFO]: Done waiting for pending navigations. Status: ok
+[1747638755.831][INFO]: Waiting for pending navigations...
+[1747638755.831][INFO]: Done waiting for pending navigations. Status: ok
+[1747638755.831][INFO]: [0a2528860b5a6b6485b22bfe088209bc] RESPONSE AddCookie
+[1747638755.833][INFO]: [0a2528860b5a6b6485b22bfe088209bc] COMMAND AddCookie {
+   "cookie": {
+      "domain": ".mp.toutiao.com",
+      "expiry": 1781887872,
+      "httpOnly": false,
+      "name": "_ga",
+      "path": "/",
+      "sameSite": "Lax",
+      "secure": false,
+      "value": "GA1.3.1330738087.1747327873"
+   }
+}
+[1747638755.833][INFO]: Waiting for pending navigations...
+[1747638755.834][INFO]: Done waiting for pending navigations. Status: ok
+[1747638755.837][INFO]: Waiting for pending navigations...
+[1747638755.837][INFO]: Done waiting for pending navigations. Status: ok
+[1747638755.837][INFO]: [0a2528860b5a6b6485b22bfe088209bc] RESPONSE AddCookie
+[1747638755.839][INFO]: [0a2528860b5a6b6485b22bfe088209bc] COMMAND AddCookie {
+   "cookie": {
+      "domain": "mp.toutiao.com",
+      "expiry": 1747932670,
+      "httpOnly": false,
+      "name": "gfgarrcache_8005812e",
+      "path": "/profile_v4/",
+      "sameSite": "Lax",
+      "secure": false,
+      "value": "1"
+   }
+}
+[1747638755.839][INFO]: Waiting for pending navigations...
+[1747638755.839][INFO]: Done waiting for pending navigations. Status: ok
+[1747638755.842][INFO]: Waiting for pending navigations...
+[1747638755.842][INFO]: Done waiting for pending navigations. Status: ok
+[1747638755.842][INFO]: [0a2528860b5a6b6485b22bfe088209bc] RESPONSE AddCookie
+[1747638755.844][INFO]: [0a2528860b5a6b6485b22bfe088209bc] COMMAND Navigate {
+   "url": "https://mp.toutiao.com/profile_v4/xigua/upload-video"
+}
+[1747638755.844][INFO]: Waiting for pending navigations...
+[1747638755.845][INFO]: Done waiting for pending navigations. Status: ok
+[1747638756.096][INFO]: Waiting for pending navigations...
+[1747638756.427][INFO]: Done waiting for pending navigations. Status: ok
+[1747638756.427][INFO]: [0a2528860b5a6b6485b22bfe088209bc] RESPONSE Navigate
+[1747638759.430][INFO]: [0a2528860b5a6b6485b22bfe088209bc] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".byte-upload-trigger-area"
+}
+[1747638759.430][INFO]: Waiting for pending navigations...
+[1747638759.431][INFO]: Done waiting for pending navigations. Status: ok
+[1747638759.438][INFO]: Waiting for pending navigations...
+[1747638759.438][INFO]: Done waiting for pending navigations. Status: ok
+[1747638759.438][INFO]: [0a2528860b5a6b6485b22bfe088209bc] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f.F7153B42EDCEE03740074062C141F89C.d.B6AB3DFE048C110EB0ACCBD0EC793866.e.13"
+}
+[1747638764.444][INFO]: [0a2528860b5a6b6485b22bfe088209bc] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//input[@type='file' and (contains(@style,'display: none') or contains(@class,'hidden') or not(@visible)) and (@accept='video/*' or contains(@accept, '.mp4'))]"
+}
+[1747638764.444][INFO]: Waiting for pending navigations...
+[1747638764.445][INFO]: Done waiting for pending navigations. Status: ok
+[1747638764.458][INFO]: Waiting for pending navigations...
+[1747638764.459][INFO]: Done waiting for pending navigations. Status: ok
+[1747638764.459][INFO]: [0a2528860b5a6b6485b22bfe088209bc] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f.F7153B42EDCEE03740074062C141F89C.d.B6AB3DFE048C110EB0ACCBD0EC793866.e.7"
+}
+[1747638764.462][INFO]: [0a2528860b5a6b6485b22bfe088209bc] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//input[@type='file' and (contains(@style,'display: none') or contains(@class,'hidden') or not(@visible)) and (@accept='video/*' or contains(@accept, '.mp4'))]"
+}
+[1747638764.462][INFO]: Waiting for pending navigations...
+[1747638764.463][INFO]: Done waiting for pending navigations. Status: ok
+[1747638764.474][INFO]: Waiting for pending navigations...
+[1747638764.475][INFO]: Done waiting for pending navigations. Status: ok
+[1747638764.475][INFO]: [0a2528860b5a6b6485b22bfe088209bc] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "f.F7153B42EDCEE03740074062C141F89C.d.B6AB3DFE048C110EB0ACCBD0EC793866.e.7"
+} ]
+[1747638764.479][INFO]: [0a2528860b5a6b6485b22bfe088209bc] COMMAND GetElementTagName {
+   "id": "f.F7153B42EDCEE03740074062C141F89C.d.B6AB3DFE048C110EB0ACCBD0EC793866.e.7"
+}
+[1747638764.479][INFO]: Waiting for pending navigations...
+[1747638764.481][INFO]: Done waiting for pending navigations. Status: ok
+[1747638764.487][INFO]: Waiting for pending navigations...
+[1747638764.488][INFO]: Done waiting for pending navigations. Status: ok
+[1747638764.488][INFO]: [0a2528860b5a6b6485b22bfe088209bc] RESPONSE GetElementTagName "input"
+[1747638764.491][INFO]: [0a2528860b5a6b6485b22bfe088209bc] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "f.F7153B42EDCEE03740074062C141F89C.d.B6AB3DFE048C110EB0ACCBD0EC793866.e.7"
+   }, "id" ],
+   "script": "/* getAttribute */return (function(){return (function(){var d=this||self;function f(a,b){function c(){}c.prototype=b.prototype;a.prototype=new c;a.prototype.constructor=a};var h=Array.prototype.indexOf?function(a,b){return Array.prototype.indexOf.call(a,b,void 0)}:function(a,b){if(\"string\"===typeof a)return\"string\"!==typeof b||1!=b.length?-1:a.indexOf(b,0);for(var c=0;c\u003Ca.length;c++)if(c in a&&a[c]===b)return c;return-1},k=Array.prototype.forEach?function(a,b){Array.prototype.forEach.call(a,b,void 0)}:function(a,b){for(var c=a.length,e=\"string\"===typeof a?a.split(\"\"):a,g=0;g\u003Cc;g++)g in e&&b.call(void 0,e[g],g,a)};function l(a,b){this.code=a;this.a=m[a]||n;this.message=b||\"\";a=this.a.replace(/((?:^|\\s+)[a-z])/g,function(c){return c.toUpperCase().replace(/^[\\s\\xa0]+/g,\"\")});b=a.length-5;if(0>b||a.indexOf(\"Error\",b)!=b)a+=\"Error\";this.name=a;a=Error(this.message);a.name=this.name;this.stack=a.stack||\"\"}f(l,Error);var n=\"unknown error\",m={15:\"element not selectable\",11:\"element not visible\"};m[31]=n;m[30]=n;m[24]=\"invalid cookie domain\";m[29]=\"invalid element coordinates\";m[12]=\"invalid element state\";m[32]=\"invalid selector\";\nm[51]=\"invalid selector\";m[52]=\"invalid selector\";m[17]=\"javascript error\";m[405]=\"unsupported operation\";m[34]=\"move target out of bounds\";m[27]=\"no such alert\";m[7]=\"no such element\";m[8]=\"no such frame\";m[23]=\"no such window\";m[28]=\"script timeout\";m[33]=\"session not created\";m[10]=\"stale element reference\";m[21]=\"timeout\";m[25]=\"unable to set cookie\";m[26]=\"unexpected alert open\";m[13]=n;m[9]=\"unknown command\";var p;a:{var q=d.navigator;if(q){var r=q.userAgent;if(r){p=r;break a}}p=\"\"}function t(a){return-1!=p.indexOf(a)};function u(){return t(\"Firefox\")||t(\"FxiOS\")}function v(){return(t(\"Chrome\")||t(\"CriOS\"))&&!t(\"Edge\")};function w(){return t(\"iPhone\")&&!t(\"iPod\")&&!t(\"iPad\")};var y=t(\"Opera\"),z=t(\"Trident\")||t(\"MSIE\"),A=t(\"Edge\"),B=t(\"Gecko\")&&!(-1!=p.toLowerCase().indexOf(\"webkit\")&&!t(\"Edge\"))&&!(t(\"Trident\")||t(\"MSIE\"))&&!t(\"Edge\"),C=-1!=p.toLowerCase().indexOf(\"webkit\")&&!t(\"Edge\");function D(){var a=d.document;return a?a.documentMode:void 0}var E;\na:{var F=\"\",G=function(){var a=p;if(B)return/rv:([^\\);]+)(\\)|;)/.exec(a);if(A)return/Edge\\/([\\d\\.]+)/.exec(a);if(z)return/\\b(?:MSIE|rv)[: ]([^\\);]+)(\\)|;)/.exec(a);if(C)return/WebKit\\/(\\S+)/.exec(a);if(y)return/(?:Version)[ \\/]?(\\S+)/.exec(a)}();G&&(F=G?G[1]:\"\");if(z){var H=D();if(null!=H&&H>parseFloat(F)){E=String(H);break a}}E=F}var I;I=d.document&&z?D():void 0;var J=u(),K=w()||t(\"iPod\"),L=t(\"iPad\"),M=t(\"Android\")&&!(v()||u()||t(\"Opera\")||t(\"Silk\")),N=v(),aa=t(\"Safari\")&&!(v()||t(\"Coast\")||t(\"Opera\")||t(\"Edge\")||t(\"Edg/\")||t(\"OPR\")||u()||t(\"Silk\")||t(\"Android\"))&&!(w()||t(\"iPad\")||t(\"iPod\"));function O(a){return(a=a.exec(p))?a[1]:\"\"}(function(){if(J)return O(/Firefox\\/([0-9.]+)/);if(z||A||y)return E;if(N)return w()||t(\"iPad\")||t(\"iPod\")?O(/CriOS\\/([0-9.]+)/):O(/Chrome\\/([0-9.]+)/);if(aa&&!(w()||t(\"iPad\")||t(\"iPod\")))return O(/Version\\/([0-9.]+)/);if(K||L){var a=/Version\\/(\\S+).*Mobile\\/(\\S+)/.exec(p);if(a)return a[1]+\".\"+a[2]}else if(M)return(a=O(/Android\\s+([0-9.]+)/))?a:O(/Version\\/([0-9.]+)/);return\"\"})();var P=z&&!(8\u003C=Number(I)),ba=z&&!(9\u003C=Number(I));var ca={SCRIPT:1,STYLE:1,HEAD:1,IFRAME:1,OBJECT:1},Q={IMG:\" \",BR:\"\\n\"};function R(a,b,c){if(!(a.nodeName in ca))if(3==a.nodeType)c?b.push(String(a.nodeValue).replace(/(\\r\\n|\\r|\\n)/g,\"\")):b.push(a.nodeValue);else if(a.nodeName in Q)b.push(Q[a.nodeName]);else for(a=a.firstChild;a;)R(a,b,c),a=a.nextSibling};function S(a,b){b=b.toLowerCase();return\"style\"==b?da(a.style.cssText):P&&\"value\"==b&&T(a,\"INPUT\")?a.value:ba&&!0===a[b]?String(a.getAttribute(b)):(a=a.getAttributeNode(b))&&a.specified?a.value:null}var ea=/[;]+(?=(?:(?:[^\"]*\"){2})*[^\"]*$)(?=(?:(?:[^']*'){2})*[^']*$)(?=(?:[^()]*\\([^()]*\\))*[^()]*$)/;\nfunction da(a){var b=[];k(a.split(ea),function(c){var e=c.indexOf(\":\");0\u003Ce&&(c=[c.slice(0,e),c.slice(e+1)],2==c.length&&b.push(c[0].toLowerCase(),\":\",c[1],\";\"))});b=b.join(\"\");return b=\";\"==b.charAt(b.length-1)?b:b+\";\"}function U(a,b){P&&\"value\"==b&&T(a,\"OPTION\")&&null===S(a,\"value\")?(b=[],R(a,b,!1),a=b.join(\"\")):a=a[b];return a}\nfunction T(a,b){b&&\"string\"!==typeof b&&(b=b.toString());return a instanceof HTMLFormElement?!!a&&1==a.nodeType&&(!b||\"FORM\"==b):!!a&&1==a.nodeType&&(!b||a.tagName.toUpperCase()==b)}function V(a){return T(a,\"OPTION\")?!0:T(a,\"INPUT\")?(a=a.type.toLowerCase(),\"checkbox\"==a||\"radio\"==a):!1};var fa={\"class\":\"className\",readonly:\"readOnly\"},ha=\"allowfullscreen allowpaymentrequest allowusermedia async autofocus autoplay checked compact complete controls declare default defaultchecked defaultselected defer disabled ended formnovalidate hidden indeterminate iscontenteditable ismap itemscope loop multiple muted nohref nomodule noresize noshade novalidate nowrap open paused playsinline pubdate readonly required reversed scoped seamless seeking selected truespeed typemustmatch willvalidate\".split(\" \");function W(a,b){var c=null,e=b.toLowerCase();if(\"style\"==e)return(c=a.style)&&\"string\"!=typeof c&&(c=c.cssText),c;if((\"selected\"==e||\"checked\"==e)&&V(a)){if(!V(a))throw new l(15,\"Element is not selectable\");b=\"selected\";c=a.type&&a.type.toLowerCase();if(\"checkbox\"==c||\"radio\"==c)b=\"checked\";return U(a,b)?\"true\":null}var g=T(a,\"A\");if(T(a,\"IMG\")&&\"src\"==e||g&&\"href\"==e)return(c=S(a,e))&&(c=U(a,e)),c;if(\"spellcheck\"==e){c=S(a,e);if(null!==c){if(\"false\"==c.toLowerCase())return\"false\";if(\"true\"==c.toLowerCase())return\"true\"}return U(a,\ne)+\"\"}g=fa[b]||b;if(0\u003C=h(ha,e))return(c=null!==S(a,b)||U(a,g))?\"true\":null;try{var x=U(a,g)}catch(ia){}(e=null==x)||(e=typeof x,e=\"object\"==e&&null!=x||\"function\"==e);e?c=S(a,b):c=x;return null!=c?c.toString():null}var X=[\"_\"],Y=d;X[0]in Y||\"undefined\"==typeof Y.execScript||Y.execScript(\"var \"+X[0]);for(var Z;X.length&&(Z=X.shift());)X.length||void 0===W?Y[Z]&&Y[Z]!==Object.prototype[Z]?Y=Y[Z]:Y=Y[Z]={}:Y[Z]=W;; return this._.apply(null,arguments);}).apply({navigator:typeof window!='undefined'?window.navigator:null,document:typeof window!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);"
+}
+[1747638764.491][INFO]: Waiting for pending navigations...
+[1747638764.492][INFO]: Done waiting for pending navigations. Status: ok
+[1747638764.498][INFO]: Waiting for pending navigations...
+[1747638764.499][INFO]: Done waiting for pending navigations. Status: ok
+[1747638764.499][INFO]: [0a2528860b5a6b6485b22bfe088209bc] RESPONSE ExecuteScript ""
+[1747638764.501][INFO]: [0a2528860b5a6b6485b22bfe088209bc] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "f.F7153B42EDCEE03740074062C141F89C.d.B6AB3DFE048C110EB0ACCBD0EC793866.e.7"
+   }, "class" ],
+   "script": "/* getAttribute */return (function(){return (function(){var d=this||self;function f(a,b){function c(){}c.prototype=b.prototype;a.prototype=new c;a.prototype.constructor=a};var h=Array.prototype.indexOf?function(a,b){return Array.prototype.indexOf.call(a,b,void 0)}:function(a,b){if(\"string\"===typeof a)return\"string\"!==typeof b||1!=b.length?-1:a.indexOf(b,0);for(var c=0;c\u003Ca.length;c++)if(c in a&&a[c]===b)return c;return-1},k=Array.prototype.forEach?function(a,b){Array.prototype.forEach.call(a,b,void 0)}:function(a,b){for(var c=a.length,e=\"string\"===typeof a?a.split(\"\"):a,g=0;g\u003Cc;g++)g in e&&b.call(void 0,e[g],g,a)};function l(a,b){this.code=a;this.a=m[a]||n;this.message=b||\"\";a=this.a.replace(/((?:^|\\s+)[a-z])/g,function(c){return c.toUpperCase().replace(/^[\\s\\xa0]+/g,\"\")});b=a.length-5;if(0>b||a.indexOf(\"Error\",b)!=b)a+=\"Error\";this.name=a;a=Error(this.message);a.name=this.name;this.stack=a.stack||\"\"}f(l,Error);var n=\"unknown error\",m={15:\"element not selectable\",11:\"element not visible\"};m[31]=n;m[30]=n;m[24]=\"invalid cookie domain\";m[29]=\"invalid element coordinates\";m[12]=\"invalid element state\";m[32]=\"invalid selector\";\nm[51]=\"invalid selector\";m[52]=\"invalid selector\";m[17]=\"javascript error\";m[405]=\"unsupported operation\";m[34]=\"move target out of bounds\";m[27]=\"no such alert\";m[7]=\"no such element\";m[8]=\"no such frame\";m[23]=\"no such window\";m[28]=\"script timeout\";m[33]=\"session not created\";m[10]=\"stale element reference\";m[21]=\"timeout\";m[25]=\"unable to set cookie\";m[26]=\"unexpected alert open\";m[13]=n;m[9]=\"unknown command\";var p;a:{var q=d.navigator;if(q){var r=q.userAgent;if(r){p=r;break a}}p=\"\"}function t(a){return-1!=p.indexOf(a)};function u(){return t(\"Firefox\")||t(\"FxiOS\")}function v(){return(t(\"Chrome\")||t(\"CriOS\"))&&!t(\"Edge\")};function w(){return t(\"iPhone\")&&!t(\"iPod\")&&!t(\"iPad\")};var y=t(\"Opera\"),z=t(\"Trident\")||t(\"MSIE\"),A=t(\"Edge\"),B=t(\"Gecko\")&&!(-1!=p.toLowerCase().indexOf(\"webkit\")&&!t(\"Edge\"))&&!(t(\"Trident\")||t(\"MSIE\"))&&!t(\"Edge\"),C=-1!=p.toLowerCase().indexOf(\"webkit\")&&!t(\"Edge\");function D(){var a=d.document;return a?a.documentMode:void 0}var E;\na:{var F=\"\",G=function(){var a=p;if(B)return/rv:([^\\);]+)(\\)|;)/.exec(a);if(A)return/Edge\\/([\\d\\.]+)/.exec(a);if(z)return/\\b(?:MSIE|rv)[: ]([^\\);]+)(\\)|;)/.exec(a);if(C)return/WebKit\\/(\\S+)/.exec(a);if(y)return/(?:Version)[ \\/]?(\\S+)/.exec(a)}();G&&(F=G?G[1]:\"\");if(z){var H=D();if(null!=H&&H>parseFloat(F)){E=String(H);break a}}E=F}var I;I=d.document&&z?D():void 0;var J=u(),K=w()||t(\"iPod\"),L=t(\"iPad\"),M=t(\"Android\")&&!(v()||u()||t(\"Opera\")||t(\"Silk\")),N=v(),aa=t(\"Safari\")&&!(v()||t(\"Coast\")||t(\"Opera\")||t(\"Edge\")||t(\"Edg/\")||t(\"OPR\")||u()||t(\"Silk\")||t(\"Android\"))&&!(w()||t(\"iPad\")||t(\"iPod\"));function O(a){return(a=a.exec(p))?a[1]:\"\"}(function(){if(J)return O(/Firefox\\/([0-9.]+)/);if(z||A||y)return E;if(N)return w()||t(\"iPad\")||t(\"iPod\")?O(/CriOS\\/([0-9.]+)/):O(/Chrome\\/([0-9.]+)/);if(aa&&!(w()||t(\"iPad\")||t(\"iPod\")))return O(/Version\\/([0-9.]+)/);if(K||L){var a=/Version\\/(\\S+).*Mobile\\/(\\S+)/.exec(p);if(a)return a[1]+\".\"+a[2]}else if(M)return(a=O(/Android\\s+([0-9.]+)/))?a:O(/Version\\/([0-9.]+)/);return\"\"})();var P=z&&!(8\u003C=Number(I)),ba=z&&!(9\u003C=Number(I));var ca={SCRIPT:1,STYLE:1,HEAD:1,IFRAME:1,OBJECT:1},Q={IMG:\" \",BR:\"\\n\"};function R(a,b,c){if(!(a.nodeName in ca))if(3==a.nodeType)c?b.push(String(a.nodeValue).replace(/(\\r\\n|\\r|\\n)/g,\"\")):b.push(a.nodeValue);else if(a.nodeName in Q)b.push(Q[a.nodeName]);else for(a=a.firstChild;a;)R(a,b,c),a=a.nextSibling};function S(a,b){b=b.toLowerCase();return\"style\"==b?da(a.style.cssText):P&&\"value\"==b&&T(a,\"INPUT\")?a.value:ba&&!0===a[b]?String(a.getAttribute(b)):(a=a.getAttributeNode(b))&&a.specified?a.value:null}var ea=/[;]+(?=(?:(?:[^\"]*\"){2})*[^\"]*$)(?=(?:(?:[^']*'){2})*[^']*$)(?=(?:[^()]*\\([^()]*\\))*[^()]*$)/;\nfunction da(a){var b=[];k(a.split(ea),function(c){var e=c.indexOf(\":\");0\u003Ce&&(c=[c.slice(0,e),c.slice(e+1)],2==c.length&&b.push(c[0].toLowerCase(),\":\",c[1],\";\"))});b=b.join(\"\");return b=\";\"==b.charAt(b.length-1)?b:b+\";\"}function U(a,b){P&&\"value\"==b&&T(a,\"OPTION\")&&null===S(a,\"value\")?(b=[],R(a,b,!1),a=b.join(\"\")):a=a[b];return a}\nfunction T(a,b){b&&\"string\"!==typeof b&&(b=b.toString());return a instanceof HTMLFormElement?!!a&&1==a.nodeType&&(!b||\"FORM\"==b):!!a&&1==a.nodeType&&(!b||a.tagName.toUpperCase()==b)}function V(a){return T(a,\"OPTION\")?!0:T(a,\"INPUT\")?(a=a.type.toLowerCase(),\"checkbox\"==a||\"radio\"==a):!1};var fa={\"class\":\"className\",readonly:\"readOnly\"},ha=\"allowfullscreen allowpaymentrequest allowusermedia async autofocus autoplay checked compact complete controls declare default defaultchecked defaultselected defer disabled ended formnovalidate hidden indeterminate iscontenteditable ismap itemscope loop multiple muted nohref nomodule noresize noshade novalidate nowrap open paused playsinline pubdate readonly required reversed scoped seamless seeking selected truespeed typemustmatch willvalidate\".split(\" \");function W(a,b){var c=null,e=b.toLowerCase();if(\"style\"==e)return(c=a.style)&&\"string\"!=typeof c&&(c=c.cssText),c;if((\"selected\"==e||\"checked\"==e)&&V(a)){if(!V(a))throw new l(15,\"Element is not selectable\");b=\"selected\";c=a.type&&a.type.toLowerCase();if(\"checkbox\"==c||\"radio\"==c)b=\"checked\";return U(a,b)?\"true\":null}var g=T(a,\"A\");if(T(a,\"IMG\")&&\"src\"==e||g&&\"href\"==e)return(c=S(a,e))&&(c=U(a,e)),c;if(\"spellcheck\"==e){c=S(a,e);if(null!==c){if(\"false\"==c.toLowerCase())return\"false\";if(\"true\"==c.toLowerCase())return\"true\"}return U(a,\ne)+\"\"}g=fa[b]||b;if(0\u003C=h(ha,e))return(c=null!==S(a,b)||U(a,g))?\"true\":null;try{var x=U(a,g)}catch(ia){}(e=null==x)||(e=typeof x,e=\"object\"==e&&null!=x||\"function\"==e);e?c=S(a,b):c=x;return null!=c?c.toString():null}var X=[\"_\"],Y=d;X[0]in Y||\"undefined\"==typeof Y.execScript||Y.execScript(\"var \"+X[0]);for(var Z;X.length&&(Z=X.shift());)X.length||void 0===W?Y[Z]&&Y[Z]!==Object.prototype[Z]?Y=Y[Z]:Y=Y[Z]={}:Y[Z]=W;; return this._.apply(null,arguments);}).apply({navigator:typeof window!='undefined'?window.navigator:null,document:typeof window!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);"
+}
+[1747638764.502][INFO]: Waiting for pending navigations...
+[1747638764.502][INFO]: Done waiting for pending navigations. Status: ok
+[1747638764.508][INFO]: Waiting for pending navigations...
+[1747638764.509][INFO]: Done waiting for pending navigations. Status: ok
+[1747638764.509][INFO]: [0a2528860b5a6b6485b22bfe088209bc] RESPONSE ExecuteScript ""
+[1747638764.513][INFO]: [0a2528860b5a6b6485b22bfe088209bc] COMMAND TypeElement {
+   "id": "f.F7153B42EDCEE03740074062C141F89C.d.B6AB3DFE048C110EB0ACCBD0EC793866.e.7",
+   "text": "F:\\twitter_download\\ShouldHaveCat\\海外猫咪视频大赏064.MP4",
+   "value": [ "F", ":", "\\", "t", "w", "i", "t", "t", "e", "r", "_", "d", "o", "w", "n", "l", "o", "a", "d", "\\", "S", "h", "o", "u", "l", "d", "H", "a", "v", "e", "C", "a", "t", "\\", "海", "外", "猫", "咪", "视", "频", "大", "赏", "0", "6", "4", ".", "M", "P", "4" ]
+}
+[1747638764.513][INFO]: Waiting for pending navigations...
+[1747638764.513][INFO]: Done waiting for pending navigations. Status: ok
+[1747638764.551][INFO]: Waiting for pending navigations...
+[1747638764.552][INFO]: Done waiting for pending navigations. Status: ok
+[1747638764.552][INFO]: [0a2528860b5a6b6485b22bfe088209bc] RESPONSE TypeElement
+[1747638764.554][INFO]: [0a2528860b5a6b6485b22bfe088209bc] COMMAND FindElement {
+   "using": "xpath",
+   "value": "/html/body/div[1]/div/div[3]/section/main/div[2]/div/div/div[2]/div/div/div/div[2]/div/div[1]/div/div/div/div[3]/div/div[2]/div[1]/div[2]/div[2]/div[2]/div[1]/div/div/div"
+}
+[1747638764.554][INFO]: Waiting for pending navigations...
+[1747638764.555][INFO]: Done waiting for pending navigations. Status: ok
+[1747638764.563][INFO]: Waiting for pending navigations...
+[1747638764.565][INFO]: Done waiting for pending navigations. Status: ok
+[1747638764.565][INFO]: [0a2528860b5a6b6485b22bfe088209bc] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[3]/section/main/div[2]/div/div/div[2]/div/div/div/div[2]/div/div[1]/div/div/div/div[3]/div/div[2]/div[1]/div[2]/div[2]/div[2]/div[1]/div/div/div"}
+  (Session info: MicrosoftEdge=136.0.3240.64)
+[1747638765.068][INFO]: [0a2528860b5a6b6485b22bfe088209bc] COMMAND FindElement {
+   "using": "xpath",
+   "value": "/html/body/div[1]/div/div[3]/section/main/div[2]/div/div/div[2]/div/div/div/div[2]/div/div[1]/div/div/div/div[3]/div/div[2]/div[1]/div[2]/div[2]/div[2]/div[1]/div/div/div"
+}
+[1747638765.068][INFO]: Waiting for pending navigations...
+[1747638765.069][INFO]: Done waiting for pending navigations. Status: ok
+[1747638765.077][INFO]: Waiting for pending navigations...
+[1747638765.078][INFO]: Done waiting for pending navigations. Status: ok
+[1747638765.078][INFO]: [0a2528860b5a6b6485b22bfe088209bc] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[3]/section/main/div[2]/div/div/div[2]/div/div/div/div[2]/div/div[1]/div/div/div/div[3]/div/div[2]/div[1]/div[2]/div[2]/div[2]/div[1]/div/div/div"}
+  (Session info: MicrosoftEdge=136.0.3240.64)
+[1747638765.582][INFO]: [0a2528860b5a6b6485b22bfe088209bc] COMMAND FindElement {
+   "using": "xpath",
+   "value": "/html/body/div[1]/div/div[3]/section/main/div[2]/div/div/div[2]/div/div/div/div[2]/div/div[1]/div/div/div/div[3]/div/div[2]/div[1]/div[2]/div[2]/div[2]/div[1]/div/div/div"
+}
+[1747638765.582][INFO]: Waiting for pending navigations...
+[1747638765.583][INFO]: Done waiting for pending navigations. Status: ok
+[1747638765.589][INFO]: Waiting for pending navigations...
+[1747638765.589][INFO]: Done waiting for pending navigations. Status: ok
+[1747638765.589][INFO]: [0a2528860b5a6b6485b22bfe088209bc] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[3]/section/main/div[2]/div/div/div[2]/div/div/div/div[2]/div/div[1]/div/div/div/div[3]/div/div[2]/div[1]/div[2]/div[2]/div[2]/div[1]/div/div/div"}
+  (Session info: MicrosoftEdge=136.0.3240.64)
+[1747638766.092][INFO]: [0a2528860b5a6b6485b22bfe088209bc] COMMAND FindElement {
+   "using": "xpath",
+   "value": "/html/body/div[1]/div/div[3]/section/main/div[2]/div/div/div[2]/div/div/div/div[2]/div/div[1]/div/div/div/div[3]/div/div[2]/div[1]/div[2]/div[2]/div[2]/div[1]/div/div/div"
+}
+[1747638766.092][INFO]: Waiting for pending navigations...
+[1747638766.093][INFO]: Done waiting for pending navigations. Status: ok
+[1747638766.098][INFO]: Waiting for pending navigations...
+[1747638766.099][INFO]: Done waiting for pending navigations. Status: ok
+[1747638766.099][INFO]: [0a2528860b5a6b6485b22bfe088209bc] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[3]/section/main/div[2]/div/div/div[2]/div/div/div/div[2]/div/div[1]/div/div/div/div[3]/div/div[2]/div[1]/div[2]/div[2]/div[2]/div[1]/div/div/div"}
+  (Session info: MicrosoftEdge=136.0.3240.64)
+[1747638766.602][INFO]: [0a2528860b5a6b6485b22bfe088209bc] COMMAND FindElement {
+   "using": "xpath",
+   "value": "/html/body/div[1]/div/div[3]/section/main/div[2]/div/div/div[2]/div/div/div/div[2]/div/div[1]/div/div/div/div[3]/div/div[2]/div[1]/div[2]/div[2]/div[2]/div[1]/div/div/div"
+}
+[1747638766.602][INFO]: Waiting for pending navigations...
+[1747638766.603][INFO]: Done waiting for pending navigations. Status: ok
+[1747638766.608][INFO]: Waiting for pending navigations...
+[1747638766.609][INFO]: Done waiting for pending navigations. Status: ok
+[1747638766.609][INFO]: [0a2528860b5a6b6485b22bfe088209bc] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[3]/section/main/div[2]/div/div/div[2]/div/div/div/div[2]/div/div[1]/div/div/div/div[3]/div/div[2]/div[1]/div[2]/div[2]/div[2]/div[1]/div/div/div"}
+  (Session info: MicrosoftEdge=136.0.3240.64)
+[1747638767.112][INFO]: [0a2528860b5a6b6485b22bfe088209bc] COMMAND FindElement {
+   "using": "xpath",
+   "value": "/html/body/div[1]/div/div[3]/section/main/div[2]/div/div/div[2]/div/div/div/div[2]/div/div[1]/div/div/div/div[3]/div/div[2]/div[1]/div[2]/div[2]/div[2]/div[1]/div/div/div"
+}
+[1747638767.112][INFO]: Waiting for pending navigations...
+[1747638767.113][INFO]: Done waiting for pending navigations. Status: ok
+[1747638767.119][INFO]: Waiting for pending navigations...
+[1747638767.120][INFO]: Done waiting for pending navigations. Status: ok
+[1747638767.120][INFO]: [0a2528860b5a6b6485b22bfe088209bc] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[3]/section/main/div[2]/div/div/div[2]/div/div/div/div[2]/div/div[1]/div/div/div/div[3]/div/div[2]/div[1]/div[2]/div[2]/div[2]/div[1]/div/div/div"}
+  (Session info: MicrosoftEdge=136.0.3240.64)
+[1747638767.623][INFO]: [0a2528860b5a6b6485b22bfe088209bc] COMMAND FindElement {
+   "using": "xpath",
+   "value": "/html/body/div[1]/div/div[3]/section/main/div[2]/div/div/div[2]/div/div/div/div[2]/div/div[1]/div/div/div/div[3]/div/div[2]/div[1]/div[2]/div[2]/div[2]/div[1]/div/div/div"
+}
+[1747638767.623][INFO]: Waiting for pending navigations...
+[1747638767.624][INFO]: Done waiting for pending navigations. Status: ok
+[1747638767.630][INFO]: Waiting for pending navigations...
+[1747638767.630][INFO]: Done waiting for pending navigations. Status: ok
+[1747638767.630][INFO]: [0a2528860b5a6b6485b22bfe088209bc] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[3]/section/main/div[2]/div/div/div[2]/div/div/div/div[2]/div/div[1]/div/div/div/div[3]/div/div[2]/div[1]/div[2]/div[2]/div[2]/div[1]/div/div/div"}
+  (Session info: MicrosoftEdge=136.0.3240.64)
+[1747638768.133][INFO]: [0a2528860b5a6b6485b22bfe088209bc] COMMAND FindElement {
+   "using": "xpath",
+   "value": "/html/body/div[1]/div/div[3]/section/main/div[2]/div/div/div[2]/div/div/div/div[2]/div/div[1]/div/div/div/div[3]/div/div[2]/div[1]/div[2]/div[2]/div[2]/div[1]/div/div/div"
+}
+[1747638768.133][INFO]: Waiting for pending navigations...
+[1747638768.134][INFO]: Done waiting for pending navigations. Status: ok
+[1747638768.139][INFO]: Waiting for pending navigations...
+[1747638768.140][INFO]: Done waiting for pending navigations. Status: ok
+[1747638768.140][INFO]: [0a2528860b5a6b6485b22bfe088209bc] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[3]/section/main/div[2]/div/div/div[2]/div/div/div/div[2]/div/div[1]/div/div/div/div[3]/div/div[2]/div[1]/div[2]/div[2]/div[2]/div[1]/div/div/div"}
+  (Session info: MicrosoftEdge=136.0.3240.64)
+[1747638768.643][INFO]: [0a2528860b5a6b6485b22bfe088209bc] COMMAND FindElement {
+   "using": "xpath",
+   "value": "/html/body/div[1]/div/div[3]/section/main/div[2]/div/div/div[2]/div/div/div/div[2]/div/div[1]/div/div/div/div[3]/div/div[2]/div[1]/div[2]/div[2]/div[2]/div[1]/div/div/div"
+}
+[1747638768.643][INFO]: Waiting for pending navigations...
+[1747638768.644][INFO]: Done waiting for pending navigations. Status: ok
+[1747638768.650][INFO]: Waiting for pending navigations...
+[1747638768.651][INFO]: Done waiting for pending navigations. Status: ok
+[1747638768.651][INFO]: [0a2528860b5a6b6485b22bfe088209bc] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[3]/section/main/div[2]/div/div/div[2]/div/div/div/div[2]/div/div[1]/div/div/div/div[3]/div/div[2]/div[1]/div[2]/div[2]/div[2]/div[1]/div/div/div"}
+  (Session info: MicrosoftEdge=136.0.3240.64)
+[1747638769.154][INFO]: [0a2528860b5a6b6485b22bfe088209bc] COMMAND FindElement {
+   "using": "xpath",
+   "value": "/html/body/div[1]/div/div[3]/section/main/div[2]/div/div/div[2]/div/div/div/div[2]/div/div[1]/div/div/div/div[3]/div/div[2]/div[1]/div[2]/div[2]/div[2]/div[1]/div/div/div"
+}
+[1747638769.154][INFO]: Waiting for pending navigations...
+[1747638769.155][INFO]: Done waiting for pending navigations. Status: ok
+[1747638769.161][INFO]: Waiting for pending navigations...
+[1747638769.161][INFO]: Done waiting for pending navigations. Status: ok
+[1747638769.161][INFO]: [0a2528860b5a6b6485b22bfe088209bc] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[3]/section/main/div[2]/div/div/div[2]/div/div/div/div[2]/div/div[1]/div/div/div/div[3]/div/div[2]/div[1]/div[2]/div[2]/div[2]/div[1]/div/div/div"}
+  (Session info: MicrosoftEdge=136.0.3240.64)
+[1747638769.664][INFO]: [0a2528860b5a6b6485b22bfe088209bc] COMMAND FindElement {
+   "using": "xpath",
+   "value": "/html/body/div[1]/div/div[3]/section/main/div[2]/div/div/div[2]/div/div/div/div[2]/div/div[1]/div/div/div/div[3]/div/div[2]/div[1]/div[2]/div[2]/div[2]/div[1]/div/div/div"
+}
+[1747638769.664][INFO]: Waiting for pending navigations...
+[1747638769.665][INFO]: Done waiting for pending navigations. Status: ok
+[1747638769.676][INFO]: Waiting for pending navigations...
+[1747638769.677][INFO]: Done waiting for pending navigations. Status: ok
+[1747638769.677][INFO]: [0a2528860b5a6b6485b22bfe088209bc] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[3]/section/main/div[2]/div/div/div[2]/div/div/div/div[2]/div/div[1]/div/div/div/div[3]/div/div[2]/div[1]/div[2]/div[2]/div[2]/div[1]/div/div/div"}
+  (Session info: MicrosoftEdge=136.0.3240.64)
+[1747638770.179][INFO]: [0a2528860b5a6b6485b22bfe088209bc] COMMAND FindElement {
+   "using": "xpath",
+   "value": "/html/body/div[1]/div/div[3]/section/main/div[2]/div/div/div[2]/div/div/div/div[2]/div/div[1]/div/div/div/div[3]/div/div[2]/div[1]/div[2]/div[2]/div[2]/div[1]/div/div/div"
+}
+[1747638770.180][INFO]: Waiting for pending navigations...
+[1747638770.180][INFO]: Done waiting for pending navigations. Status: ok
+[1747638770.187][INFO]: Waiting for pending navigations...
+[1747638770.187][INFO]: Done waiting for pending navigations. Status: ok
+[1747638770.187][INFO]: [0a2528860b5a6b6485b22bfe088209bc] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[3]/section/main/div[2]/div/div/div[2]/div/div/div/div[2]/div/div[1]/div/div/div/div[3]/div/div[2]/div[1]/div[2]/div[2]/div[2]/div[1]/div/div/div"}
+  (Session info: MicrosoftEdge=136.0.3240.64)
+[1747638770.690][INFO]: [0a2528860b5a6b6485b22bfe088209bc] COMMAND FindElement {
+   "using": "xpath",
+   "value": "/html/body/div[1]/div/div[3]/section/main/div[2]/div/div/div[2]/div/div/div/div[2]/div/div[1]/div/div/div/div[3]/div/div[2]/div[1]/div[2]/div[2]/div[2]/div[1]/div/div/div"
+}
+[1747638770.690][INFO]: Waiting for pending navigations...
+[1747638770.691][INFO]: Done waiting for pending navigations. Status: ok
+[1747638770.696][INFO]: Waiting for pending navigations...
+[1747638770.696][INFO]: Done waiting for pending navigations. Status: ok
+[1747638770.696][INFO]: [0a2528860b5a6b6485b22bfe088209bc] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[3]/section/main/div[2]/div/div/div[2]/div/div/div/div[2]/div/div[1]/div/div/div/div[3]/div/div[2]/div[1]/div[2]/div[2]/div[2]/div[1]/div/div/div"}
+  (Session info: MicrosoftEdge=136.0.3240.64)
+[1747638771.199][INFO]: [0a2528860b5a6b6485b22bfe088209bc] COMMAND FindElement {
+   "using": "xpath",
+   "value": "/html/body/div[1]/div/div[3]/section/main/div[2]/div/div/div[2]/div/div/div/div[2]/div/div[1]/div/div/div/div[3]/div/div[2]/div[1]/div[2]/div[2]/div[2]/div[1]/div/div/div"
+}
+[1747638771.199][INFO]: Waiting for pending navigations...
+[1747638771.200][INFO]: Done waiting for pending navigations. Status: ok
+[1747638771.206][INFO]: Waiting for pending navigations...
+[1747638771.207][INFO]: Done waiting for pending navigations. Status: ok
+[1747638771.207][INFO]: [0a2528860b5a6b6485b22bfe088209bc] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[3]/section/main/div[2]/div/div/div[2]/div/div/div/div[2]/div/div[1]/div/div/div/div[3]/div/div[2]/div[1]/div[2]/div[2]/div[2]/div[1]/div/div/div"}
+  (Session info: MicrosoftEdge=136.0.3240.64)
+[1747638771.710][INFO]: [0a2528860b5a6b6485b22bfe088209bc] COMMAND FindElement {
+   "using": "xpath",
+   "value": "/html/body/div[1]/div/div[3]/section/main/div[2]/div/div/div[2]/div/div/div/div[2]/div/div[1]/div/div/div/div[3]/div/div[2]/div[1]/div[2]/div[2]/div[2]/div[1]/div/div/div"
+}
+[1747638771.710][INFO]: Waiting for pending navigations...
+[1747638771.711][INFO]: Done waiting for pending navigations. Status: ok
+[1747638771.716][INFO]: Waiting for pending navigations...
+[1747638771.718][INFO]: Done waiting for pending navigations. Status: ok
+[1747638771.718][INFO]: [0a2528860b5a6b6485b22bfe088209bc] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[3]/section/main/div[2]/div/div/div[2]/div/div/div/div[2]/div/div[1]/div/div/div/div[3]/div/div[2]/div[1]/div[2]/div[2]/div[2]/div[1]/div/div/div"}
+  (Session info: MicrosoftEdge=136.0.3240.64)
+[1747638772.221][INFO]: [0a2528860b5a6b6485b22bfe088209bc] COMMAND FindElement {
+   "using": "xpath",
+   "value": "/html/body/div[1]/div/div[3]/section/main/div[2]/div/div/div[2]/div/div/div/div[2]/div/div[1]/div/div/div/div[3]/div/div[2]/div[1]/div[2]/div[2]/div[2]/div[1]/div/div/div"
+}
+[1747638772.221][INFO]: Waiting for pending navigations...
+[1747638772.222][INFO]: Done waiting for pending navigations. Status: ok
+[1747638772.227][INFO]: Waiting for pending navigations...
+[1747638772.228][INFO]: Done waiting for pending navigations. Status: ok
+[1747638772.228][INFO]: [0a2528860b5a6b6485b22bfe088209bc] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[3]/section/main/div[2]/div/div/div[2]/div/div/div/div[2]/div/div[1]/div/div/div/div[3]/div/div[2]/div[1]/div[2]/div[2]/div[2]/div[1]/div/div/div"}
+  (Session info: MicrosoftEdge=136.0.3240.64)
+[1747638772.731][INFO]: [0a2528860b5a6b6485b22bfe088209bc] COMMAND FindElement {
+   "using": "xpath",
+   "value": "/html/body/div[1]/div/div[3]/section/main/div[2]/div/div/div[2]/div/div/div/div[2]/div/div[1]/div/div/div/div[3]/div/div[2]/div[1]/div[2]/div[2]/div[2]/div[1]/div/div/div"
+}
+[1747638772.731][INFO]: Waiting for pending navigations...
+[1747638772.732][INFO]: Done waiting for pending navigations. Status: ok
+[1747638772.738][INFO]: Waiting for pending navigations...
+[1747638772.739][INFO]: Done waiting for pending navigations. Status: ok
+[1747638772.739][INFO]: [0a2528860b5a6b6485b22bfe088209bc] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[3]/section/main/div[2]/div/div/div[2]/div/div/div/div[2]/div/div[1]/div/div/div/div[3]/div/div[2]/div[1]/div[2]/div[2]/div[2]/div[1]/div/div/div"}
+  (Session info: MicrosoftEdge=136.0.3240.64)
+[1747638773.241][INFO]: [0a2528860b5a6b6485b22bfe088209bc] COMMAND FindElement {
+   "using": "xpath",
+   "value": "/html/body/div[1]/div/div[3]/section/main/div[2]/div/div/div[2]/div/div/div/div[2]/div/div[1]/div/div/div/div[3]/div/div[2]/div[1]/div[2]/div[2]/div[2]/div[1]/div/div/div"
+}
+[1747638773.241][INFO]: Waiting for pending navigations...
+[1747638773.242][INFO]: Done waiting for pending navigations. Status: ok
+[1747638773.248][INFO]: Waiting for pending navigations...
+[1747638773.249][INFO]: Done waiting for pending navigations. Status: ok
+[1747638773.249][INFO]: [0a2528860b5a6b6485b22bfe088209bc] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[3]/section/main/div[2]/div/div/div[2]/div/div/div/div[2]/div/div[1]/div/div/div/div[3]/div/div[2]/div[1]/div[2]/div[2]/div[2]/div[1]/div/div/div"}
+  (Session info: MicrosoftEdge=136.0.3240.64)
+[1747638773.752][INFO]: [0a2528860b5a6b6485b22bfe088209bc] COMMAND FindElement {
+   "using": "xpath",
+   "value": "/html/body/div[1]/div/div[3]/section/main/div[2]/div/div/div[2]/div/div/div/div[2]/div/div[1]/div/div/div/div[3]/div/div[2]/div[1]/div[2]/div[2]/div[2]/div[1]/div/div/div"
+}
+[1747638773.752][INFO]: Waiting for pending navigations...
+[1747638773.753][INFO]: Done waiting for pending navigations. Status: ok
+[1747638773.758][INFO]: Waiting for pending navigations...
+[1747638773.759][INFO]: Done waiting for pending navigations. Status: ok
+[1747638773.759][INFO]: [0a2528860b5a6b6485b22bfe088209bc] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[3]/section/main/div[2]/div/div/div[2]/div/div/div/div[2]/div/div[1]/div/div/div/div[3]/div/div[2]/div[1]/div[2]/div[2]/div[2]/div[1]/div/div/div"}
+  (Session info: MicrosoftEdge=136.0.3240.64)
+[1747638774.262][INFO]: [0a2528860b5a6b6485b22bfe088209bc] COMMAND FindElement {
+   "using": "xpath",
+   "value": "/html/body/div[1]/div/div[3]/section/main/div[2]/div/div/div[2]/div/div/div/div[2]/div/div[1]/div/div/div/div[3]/div/div[2]/div[1]/div[2]/div[2]/div[2]/div[1]/div/div/div"
+}
+[1747638774.262][INFO]: Waiting for pending navigations...
+[1747638774.263][INFO]: Done waiting for pending navigations. Status: ok
+[1747638774.270][INFO]: Waiting for pending navigations...
+[1747638774.270][INFO]: Done waiting for pending navigations. Status: ok
+[1747638774.270][INFO]: [0a2528860b5a6b6485b22bfe088209bc] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[3]/section/main/div[2]/div/div/div[2]/div/div/div/div[2]/div/div[1]/div/div/div/div[3]/div/div[2]/div[1]/div[2]/div[2]/div[2]/div[1]/div/div/div"}
+  (Session info: MicrosoftEdge=136.0.3240.64)
+[1747638774.773][INFO]: [0a2528860b5a6b6485b22bfe088209bc] COMMAND FindElement {
+   "using": "xpath",
+   "value": "/html/body/div[1]/div/div[3]/section/main/div[2]/div/div/div[2]/div/div/div/div[2]/div/div[1]/div/div/div/div[3]/div/div[2]/div[1]/div[2]/div[2]/div[2]/div[1]/div/div/div"
+}
+[1747638774.773][INFO]: Waiting for pending navigations...
+[1747638774.774][INFO]: Done waiting for pending navigations. Status: ok
+[1747638774.781][INFO]: Waiting for pending navigations...
+[1747638774.781][INFO]: Done waiting for pending navigations. Status: ok
+[1747638774.781][INFO]: [0a2528860b5a6b6485b22bfe088209bc] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[3]/section/main/div[2]/div/div/div[2]/div/div/div/div[2]/div/div[1]/div/div/div/div[3]/div/div[2]/div[1]/div[2]/div[2]/div[2]/div[1]/div/div/div"}
+  (Session info: MicrosoftEdge=136.0.3240.64)
+[1747638775.284][INFO]: [0a2528860b5a6b6485b22bfe088209bc] COMMAND FindElement {
+   "using": "xpath",
+   "value": "/html/body/div[1]/div/div[3]/section/main/div[2]/div/div/div[2]/div/div/div/div[2]/div/div[1]/div/div/div/div[3]/div/div[2]/div[1]/div[2]/div[2]/div[2]/div[1]/div/div/div"
+}
+[1747638775.284][INFO]: Waiting for pending navigations...
+[1747638775.285][INFO]: Done waiting for pending navigations. Status: ok
+[1747638775.290][INFO]: Waiting for pending navigations...
+[1747638775.291][INFO]: Done waiting for pending navigations. Status: ok
+[1747638775.291][INFO]: [0a2528860b5a6b6485b22bfe088209bc] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[3]/section/main/div[2]/div/div/div[2]/div/div/div/div[2]/div/div[1]/div/div/div/div[3]/div/div[2]/div[1]/div[2]/div[2]/div[2]/div[1]/div/div/div"}
+  (Session info: MicrosoftEdge=136.0.3240.64)
+[1747638775.793][INFO]: [0a2528860b5a6b6485b22bfe088209bc] COMMAND FindElement {
+   "using": "xpath",
+   "value": "/html/body/div[1]/div/div[3]/section/main/div[2]/div/div/div[2]/div/div/div/div[2]/div/div[1]/div/div/div/div[3]/div/div[2]/div[1]/div[2]/div[2]/div[2]/div[1]/div/div/div"
+}
+[1747638775.793][INFO]: Waiting for pending navigations...
+[1747638775.794][INFO]: Done waiting for pending navigations. Status: ok
+[1747638775.800][INFO]: Waiting for pending navigations...
+[1747638775.801][INFO]: Done waiting for pending navigations. Status: ok
+[1747638775.801][INFO]: [0a2528860b5a6b6485b22bfe088209bc] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[3]/section/main/div[2]/div/div/div[2]/div/div/div/div[2]/div/div[1]/div/div/div/div[3]/div/div[2]/div[1]/div[2]/div[2]/div[2]/div[1]/div/div/div"}
+  (Session info: MicrosoftEdge=136.0.3240.64)
+[1747638776.303][INFO]: [0a2528860b5a6b6485b22bfe088209bc] COMMAND FindElement {
+   "using": "xpath",
+   "value": "/html/body/div[1]/div/div[3]/section/main/div[2]/div/div/div[2]/div/div/div/div[2]/div/div[1]/div/div/div/div[3]/div/div[2]/div[1]/div[2]/div[2]/div[2]/div[1]/div/div/div"
+}
+[1747638776.303][INFO]: Waiting for pending navigations...
+[1747638776.304][INFO]: Done waiting for pending navigations. Status: ok
+[1747638776.311][INFO]: Waiting for pending navigations...
+[1747638776.311][INFO]: Done waiting for pending navigations. Status: ok
+[1747638776.311][INFO]: [0a2528860b5a6b6485b22bfe088209bc] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[3]/section/main/div[2]/div/div/div[2]/div/div/div/div[2]/div/div[1]/div/div/div/div[3]/div/div[2]/div[1]/div[2]/div[2]/div[2]/div[1]/div/div/div"}
+  (Session info: MicrosoftEdge=136.0.3240.64)
+[1747638776.814][INFO]: [0a2528860b5a6b6485b22bfe088209bc] COMMAND FindElement {
+   "using": "xpath",
+   "value": "/html/body/div[1]/div/div[3]/section/main/div[2]/div/div/div[2]/div/div/div/div[2]/div/div[1]/div/div/div/div[3]/div/div[2]/div[1]/div[2]/div[2]/div[2]/div[1]/div/div/div"
+}
+[1747638776.814][INFO]: Waiting for pending navigations...
+[1747638776.815][INFO]: Done waiting for pending navigations. Status: ok
+[1747638776.820][INFO]: Waiting for pending navigations...
+[1747638776.820][INFO]: Done waiting for pending navigations. Status: ok
+[1747638776.820][INFO]: [0a2528860b5a6b6485b22bfe088209bc] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[3]/section/main/div[2]/div/div/div[2]/div/div/div/div[2]/div/div[1]/div/div/div/div[3]/div/div[2]/div[1]/div[2]/div[2]/div[2]/div[1]/div/div/div"}
+  (Session info: MicrosoftEdge=136.0.3240.64)
+[1747638777.323][INFO]: [0a2528860b5a6b6485b22bfe088209bc] COMMAND FindElement {
+   "using": "xpath",
+   "value": "/html/body/div[1]/div/div[3]/section/main/div[2]/div/div/div[2]/div/div/div/div[2]/div/div[1]/div/div/div/div[3]/div/div[2]/div[1]/div[2]/div[2]/div[2]/div[1]/div/div/div"
+}
+[1747638777.323][INFO]: Waiting for pending navigations...
+[1747638777.324][INFO]: Done waiting for pending navigations. Status: ok
+[1747638777.330][INFO]: Waiting for pending navigations...
+[1747638777.331][INFO]: Done waiting for pending navigations. Status: ok
+[1747638777.331][INFO]: [0a2528860b5a6b6485b22bfe088209bc] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[3]/section/main/div[2]/div/div/div[2]/div/div/div/div[2]/div/div[1]/div/div/div/div[3]/div/div[2]/div[1]/div[2]/div[2]/div[2]/div[1]/div/div/div"}
+  (Session info: MicrosoftEdge=136.0.3240.64)
+[1747638777.834][INFO]: [0a2528860b5a6b6485b22bfe088209bc] COMMAND FindElement {
+   "using": "xpath",
+   "value": "/html/body/div[1]/div/div[3]/section/main/div[2]/div/div/div[2]/div/div/div/div[2]/div/div[1]/div/div/div/div[3]/div/div[2]/div[1]/div[2]/div[2]/div[2]/div[1]/div/div/div"
+}
+[1747638777.834][INFO]: Waiting for pending navigations...
+[1747638777.835][INFO]: Done waiting for pending navigations. Status: ok
+[1747638777.841][INFO]: Waiting for pending navigations...
+[1747638777.841][INFO]: Done waiting for pending navigations. Status: ok
+[1747638777.842][INFO]: [0a2528860b5a6b6485b22bfe088209bc] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[3]/section/main/div[2]/div/div/div[2]/div/div/div/div[2]/div/div[1]/div/div/div/div[3]/div/div[2]/div[1]/div[2]/div[2]/div[2]/div[1]/div/div/div"}
+  (Session info: MicrosoftEdge=136.0.3240.64)
+[1747638778.344][INFO]: [0a2528860b5a6b6485b22bfe088209bc] COMMAND FindElement {
+   "using": "xpath",
+   "value": "/html/body/div[1]/div/div[3]/section/main/div[2]/div/div/div[2]/div/div/div/div[2]/div/div[1]/div/div/div/div[3]/div/div[2]/div[1]/div[2]/div[2]/div[2]/div[1]/div/div/div"
+}
+[1747638778.345][INFO]: Waiting for pending navigations...
+[1747638778.345][INFO]: Done waiting for pending navigations. Status: ok
+[1747638778.351][INFO]: Waiting for pending navigations...
+[1747638778.351][INFO]: Done waiting for pending navigations. Status: ok
+[1747638778.351][INFO]: [0a2528860b5a6b6485b22bfe088209bc] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[3]/section/main/div[2]/div/div/div[2]/div/div/div/div[2]/div/div[1]/div/div/div/div[3]/div/div[2]/div[1]/div[2]/div[2]/div[2]/div[1]/div/div/div"}
+  (Session info: MicrosoftEdge=136.0.3240.64)
+[1747638778.854][INFO]: [0a2528860b5a6b6485b22bfe088209bc] COMMAND FindElement {
+   "using": "xpath",
+   "value": "/html/body/div[1]/div/div[3]/section/main/div[2]/div/div/div[2]/div/div/div/div[2]/div/div[1]/div/div/div/div[3]/div/div[2]/div[1]/div[2]/div[2]/div[2]/div[1]/div/div/div"
+}
+[1747638778.854][INFO]: Waiting for pending navigations...
+[1747638778.855][INFO]: Done waiting for pending navigations. Status: ok
+[1747638778.862][INFO]: Waiting for pending navigations...
+[1747638778.863][INFO]: Done waiting for pending navigations. Status: ok
+[1747638778.863][INFO]: [0a2528860b5a6b6485b22bfe088209bc] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[3]/section/main/div[2]/div/div/div[2]/div/div/div/div[2]/div/div[1]/div/div/div/div[3]/div/div[2]/div[1]/div[2]/div[2]/div[2]/div[1]/div/div/div"}
+  (Session info: MicrosoftEdge=136.0.3240.64)
+[1747638779.365][INFO]: [0a2528860b5a6b6485b22bfe088209bc] COMMAND FindElement {
+   "using": "xpath",
+   "value": "/html/body/div[1]/div/div[3]/section/main/div[2]/div/div/div[2]/div/div/div/div[2]/div/div[1]/div/div/div/div[3]/div/div[2]/div[1]/div[2]/div[2]/div[2]/div[1]/div/div/div"
+}
+[1747638779.365][INFO]: Waiting for pending navigations...
+[1747638779.366][INFO]: Done waiting for pending navigations. Status: ok
+[1747638779.371][INFO]: Waiting for pending navigations...
+[1747638779.372][INFO]: Done waiting for pending navigations. Status: ok
+[1747638779.372][INFO]: [0a2528860b5a6b6485b22bfe088209bc] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[3]/section/main/div[2]/div/div/div[2]/div/div/div/div[2]/div/div[1]/div/div/div/div[3]/div/div[2]/div[1]/div[2]/div[2]/div[2]/div[1]/div/div/div"}
+  (Session info: MicrosoftEdge=136.0.3240.64)
+[1747638779.874][INFO]: [0a2528860b5a6b6485b22bfe088209bc] COMMAND FindElement {
+   "using": "xpath",
+   "value": "/html/body/div[1]/div/div[3]/section/main/div[2]/div/div/div[2]/div/div/div/div[2]/div/div[1]/div/div/div/div[3]/div/div[2]/div[1]/div[2]/div[2]/div[2]/div[1]/div/div/div"
+}
+[1747638779.874][INFO]: Waiting for pending navigations...
+[1747638779.875][INFO]: Done waiting for pending navigations. Status: ok
+[1747638779.881][INFO]: Waiting for pending navigations...
+[1747638779.881][INFO]: Done waiting for pending navigations. Status: ok
+[1747638779.881][INFO]: [0a2528860b5a6b6485b22bfe088209bc] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[3]/section/main/div[2]/div/div/div[2]/div/div/div/div[2]/div/div[1]/div/div/div/div[3]/div/div[2]/div[1]/div[2]/div[2]/div[2]/div[1]/div/div/div"}
+  (Session info: MicrosoftEdge=136.0.3240.64)
+[1747638780.385][INFO]: [0a2528860b5a6b6485b22bfe088209bc] COMMAND FindElement {
+   "using": "xpath",
+   "value": "/html/body/div[1]/div/div[3]/section/main/div[2]/div/div/div[2]/div/div/div/div[2]/div/div[1]/div/div/div/div[3]/div/div[2]/div[1]/div[2]/div[2]/div[2]/div[1]/div/div/div"
+}
+[1747638780.385][INFO]: Waiting for pending navigations...
+[1747638780.386][INFO]: Done waiting for pending navigations. Status: ok
+[1747638780.392][INFO]: Waiting for pending navigations...
+[1747638780.392][INFO]: Done waiting for pending navigations. Status: ok
+[1747638780.392][INFO]: [0a2528860b5a6b6485b22bfe088209bc] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[3]/section/main/div[2]/div/div/div[2]/div/div/div/div[2]/div/div[1]/div/div/div/div[3]/div/div[2]/div[1]/div[2]/div[2]/div[2]/div[1]/div/div/div"}
+  (Session info: MicrosoftEdge=136.0.3240.64)
+[1747638780.895][INFO]: [0a2528860b5a6b6485b22bfe088209bc] COMMAND FindElement {
+   "using": "xpath",
+   "value": "/html/body/div[1]/div/div[3]/section/main/div[2]/div/div/div[2]/div/div/div/div[2]/div/div[1]/div/div/div/div[3]/div/div[2]/div[1]/div[2]/div[2]/div[2]/div[1]/div/div/div"
+}
+[1747638780.895][INFO]: Waiting for pending navigations...
+[1747638780.896][INFO]: Done waiting for pending navigations. Status: ok
+[1747638780.901][INFO]: Waiting for pending navigations...
+[1747638780.902][INFO]: Done waiting for pending navigations. Status: ok
+[1747638780.902][INFO]: [0a2528860b5a6b6485b22bfe088209bc] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[3]/section/main/div[2]/div/div/div[2]/div/div/div/div[2]/div/div[1]/div/div/div/div[3]/div/div[2]/div[1]/div[2]/div[2]/div[2]/div[1]/div/div/div"}
+  (Session info: MicrosoftEdge=136.0.3240.64)
+[1747638781.405][INFO]: [0a2528860b5a6b6485b22bfe088209bc] COMMAND FindElement {
+   "using": "xpath",
+   "value": "/html/body/div[1]/div/div[3]/section/main/div[2]/div/div/div[2]/div/div/div/div[2]/div/div[1]/div/div/div/div[3]/div/div[2]/div[1]/div[2]/div[2]/div[2]/div[1]/div/div/div"
+}
+[1747638781.405][INFO]: Waiting for pending navigations...
+[1747638781.406][INFO]: Done waiting for pending navigations. Status: ok
+[1747638781.412][INFO]: Waiting for pending navigations...
+[1747638781.413][INFO]: Done waiting for pending navigations. Status: ok
+[1747638781.413][INFO]: [0a2528860b5a6b6485b22bfe088209bc] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[3]/section/main/div[2]/div/div/div[2]/div/div/div/div[2]/div/div[1]/div/div/div/div[3]/div/div[2]/div[1]/div[2]/div[2]/div[2]/div[1]/div/div/div"}
+  (Session info: MicrosoftEdge=136.0.3240.64)
+[1747638781.915][INFO]: [0a2528860b5a6b6485b22bfe088209bc] COMMAND FindElement {
+   "using": "xpath",
+   "value": "/html/body/div[1]/div/div[3]/section/main/div[2]/div/div/div[2]/div/div/div/div[2]/div/div[1]/div/div/div/div[3]/div/div[2]/div[1]/div[2]/div[2]/div[2]/div[1]/div/div/div"
+}
+[1747638781.915][INFO]: Waiting for pending navigations...
+[1747638781.916][INFO]: Done waiting for pending navigations. Status: ok
+[1747638781.922][INFO]: Waiting for pending navigations...
+[1747638781.922][INFO]: Done waiting for pending navigations. Status: ok
+[1747638781.922][INFO]: [0a2528860b5a6b6485b22bfe088209bc] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[3]/section/main/div[2]/div/div/div[2]/div/div/div/div[2]/div/div[1]/div/div/div/div[3]/div/div[2]/div[1]/div[2]/div[2]/div[2]/div[1]/div/div/div"}
+  (Session info: MicrosoftEdge=136.0.3240.64)
+[1747638782.425][INFO]: [0a2528860b5a6b6485b22bfe088209bc] COMMAND FindElement {
+   "using": "xpath",
+   "value": "/html/body/div[1]/div/div[3]/section/main/div[2]/div/div/div[2]/div/div/div/div[2]/div/div[1]/div/div/div/div[3]/div/div[2]/div[1]/div[2]/div[2]/div[2]/div[1]/div/div/div"
+}
+[1747638782.425][INFO]: Waiting for pending navigations...
+[1747638782.426][INFO]: Done waiting for pending navigations. Status: ok
+[1747638782.431][INFO]: Waiting for pending navigations...
+[1747638782.432][INFO]: Done waiting for pending navigations. Status: ok
+[1747638782.432][INFO]: [0a2528860b5a6b6485b22bfe088209bc] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[3]/section/main/div[2]/div/div/div[2]/div/div/div/div[2]/div/div[1]/div/div/div/div[3]/div/div[2]/div[1]/div[2]/div[2]/div[2]/div[1]/div/div/div"}
+  (Session info: MicrosoftEdge=136.0.3240.64)
+[1747638782.934][INFO]: [0a2528860b5a6b6485b22bfe088209bc] COMMAND FindElement {
+   "using": "xpath",
+   "value": "/html/body/div[1]/div/div[3]/section/main/div[2]/div/div/div[2]/div/div/div/div[2]/div/div[1]/div/div/div/div[3]/div/div[2]/div[1]/div[2]/div[2]/div[2]/div[1]/div/div/div"
+}
+[1747638782.934][INFO]: Waiting for pending navigations...
+[1747638782.935][INFO]: Done waiting for pending navigations. Status: ok
+[1747638782.940][INFO]: Waiting for pending navigations...
+[1747638782.940][INFO]: Done waiting for pending navigations. Status: ok
+[1747638782.940][INFO]: [0a2528860b5a6b6485b22bfe088209bc] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[3]/section/main/div[2]/div/div/div[2]/div/div/div/div[2]/div/div[1]/div/div/div/div[3]/div/div[2]/div[1]/div[2]/div[2]/div[2]/div[1]/div/div/div"}
+  (Session info: MicrosoftEdge=136.0.3240.64)
+[1747638783.444][INFO]: [0a2528860b5a6b6485b22bfe088209bc] COMMAND FindElement {
+   "using": "xpath",
+   "value": "/html/body/div[1]/div/div[3]/section/main/div[2]/div/div/div[2]/div/div/div/div[2]/div/div[1]/div/div/div/div[3]/div/div[2]/div[1]/div[2]/div[2]/div[2]/div[1]/div/div/div"
+}
+[1747638783.444][INFO]: Waiting for pending navigations...
+[1747638783.445][INFO]: Done waiting for pending navigations. Status: ok
+[1747638783.450][INFO]: Waiting for pending navigations...
+[1747638783.451][INFO]: Done waiting for pending navigations. Status: ok
+[1747638783.451][INFO]: [0a2528860b5a6b6485b22bfe088209bc] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[3]/section/main/div[2]/div/div/div[2]/div/div/div/div[2]/div/div[1]/div/div/div/div[3]/div/div[2]/div[1]/div[2]/div[2]/div[2]/div[1]/div/div/div"}
+  (Session info: MicrosoftEdge=136.0.3240.64)
+[1747638783.954][INFO]: [0a2528860b5a6b6485b22bfe088209bc] COMMAND FindElement {
+   "using": "xpath",
+   "value": "/html/body/div[1]/div/div[3]/section/main/div[2]/div/div/div[2]/div/div/div/div[2]/div/div[1]/div/div/div/div[3]/div/div[2]/div[1]/div[2]/div[2]/div[2]/div[1]/div/div/div"
+}
+[1747638783.954][INFO]: Waiting for pending navigations...
+[1747638783.955][INFO]: Done waiting for pending navigations. Status: ok
+[1747638783.961][INFO]: Waiting for pending navigations...
+[1747638783.962][INFO]: Done waiting for pending navigations. Status: ok
+[1747638783.962][INFO]: [0a2528860b5a6b6485b22bfe088209bc] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[3]/section/main/div[2]/div/div/div[2]/div/div/div/div[2]/div/div[1]/div/div/div/div[3]/div/div[2]/div[1]/div[2]/div[2]/div[2]/div[1]/div/div/div"}
+  (Session info: MicrosoftEdge=136.0.3240.64)
+[1747638784.465][INFO]: [0a2528860b5a6b6485b22bfe088209bc] COMMAND FindElement {
+   "using": "xpath",
+   "value": "/html/body/div[1]/div/div[3]/section/main/div[2]/div/div/div[2]/div/div/div/div[2]/div/div[1]/div/div/div/div[3]/div/div[2]/div[1]/div[2]/div[2]/div[2]/div[1]/div/div/div"
+}
+[1747638784.465][INFO]: Waiting for pending navigations...
+[1747638784.466][INFO]: Done waiting for pending navigations. Status: ok
+[1747638784.471][INFO]: Waiting for pending navigations...
+[1747638784.472][INFO]: Done waiting for pending navigations. Status: ok
+[1747638784.472][INFO]: [0a2528860b5a6b6485b22bfe088209bc] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[3]/section/main/div[2]/div/div/div[2]/div/div/div/div[2]/div/div[1]/div/div/div/div[3]/div/div[2]/div[1]/div[2]/div[2]/div[2]/div[1]/div/div/div"}
+  (Session info: MicrosoftEdge=136.0.3240.64)
+[1747638784.975][INFO]: [0a2528860b5a6b6485b22bfe088209bc] COMMAND FindElement {
+   "using": "xpath",
+   "value": "/html/body/div[1]/div/div[3]/section/main/div[2]/div/div/div[2]/div/div/div/div[2]/div/div[1]/div/div/div/div[3]/div/div[2]/div[1]/div[2]/div[2]/div[2]/div[1]/div/div/div"
+}
+[1747638784.975][INFO]: Waiting for pending navigations...
+[1747638784.975][INFO]: Done waiting for pending navigations. Status: ok
+[1747638784.982][INFO]: Waiting for pending navigations...
+[1747638784.982][INFO]: Done waiting for pending navigations. Status: ok
+[1747638784.983][INFO]: [0a2528860b5a6b6485b22bfe088209bc] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[3]/section/main/div[2]/div/div/div[2]/div/div/div/div[2]/div/div[1]/div/div/div/div[3]/div/div[2]/div[1]/div[2]/div[2]/div[2]/div[1]/div/div/div"}
+  (Session info: MicrosoftEdge=136.0.3240.64)
+[1747638784.985][INFO]: [0a2528860b5a6b6485b22bfe088209bc] COMMAND Screenshot {
+}
+[1747638784.985][INFO]: Waiting for pending navigations...
+[1747638784.986][INFO]: Done waiting for pending navigations. Status: ok
+[1747638785.098][INFO]: Waiting for pending navigations...
+[1747638785.100][INFO]: Done waiting for pending navigations. Status: ok
+[1747638785.100][INFO]: [0a2528860b5a6b6485b22bfe088209bc] RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAABNkAAAT/CAIAAAC3v7ObAAAAAXNSR0IArs4c6QAAIABJREFUeJzs3XtclPed//3PnDmj4AEVURljQ4gmptoGG0NSo8bKtlG7sXvrrcW4Jev+Sh9tA1V/7hpbV1PJptvZ3bSkrqzZZDfJHTHdajaa2oSYSrraaEKQpHHQAioiiBwGm..."
+[1747638785.104][INFO]: [0a2528860b5a6b6485b22bfe088209bc] COMMAND Quit {
+}
+[1747638785.348][INFO]: [0a2528860b5a6b6485b22bfe088209bc] RESPONSE Quit
