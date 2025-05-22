@@ -1,4 +1,5 @@
-VideoUploaderProject/logs/app.log
+VideoUploaderProject/logs
 VideoUploaderProject/uploaded_videos_tracker.txt
 *.log
 *.txt
+browser_cookies.json
