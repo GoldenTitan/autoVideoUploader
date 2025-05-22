@@ -2,4 +2,4 @@ VideoUploaderProject/logs
 VideoUploaderProject/uploaded_videos_tracker.txt
 *.log
 *.txt
-browser_cookies.json
+VideoUploaderProject/browser_cookies.json
